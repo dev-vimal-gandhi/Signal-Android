@@ -6,7 +6,7 @@
     android:layout_height="52dp"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <com.servalabs.chat.components.AvatarImageView
         android:id="@+id/reactions_bottom_view_recipient_avatar"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <com.servalabs.chat.badges.BadgeImageView
         android:id="@+id/reactions_bottom_view_recipient_badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toEndOf="@id/reactions_bottom_view_recipient_avatar"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.components.FromTextView
+        <com.servalabs.chat.components.FromTextView
             android:id="@+id/reactions_bottom_view_recipient_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:textColor="@color/signal_text_primary"
             tools:text="@tools:sample/full_names" />
 
-        <org.thoughtcrime.securesms.components.FromTextView
+        <com.servalabs.chat.components.FromTextView
             android:id="@+id/reactions_bottom_view_recipient_tap_to_remove_action_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
     </LinearLayout>
 
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <com.servalabs.chat.components.emoji.EmojiTextView
         android:id="@+id/reactions_bottom_view_recipient_emoji"
         android:layout_width="wrap_content"
         android:layout_height="0dp"

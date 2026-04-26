@@ -3,7 +3,7 @@
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.util.rx.RxStore
 
 #end
 #parse("File Header.java")

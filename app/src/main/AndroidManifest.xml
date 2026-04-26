@@ -22,7 +22,7 @@
     <!-- Permissions                             -->
     <!-- ======================================= -->
     <permission android:name="${applicationId}.ACCESS_SECRETS" android:label="Access to TextSecure Secrets" android:protectionLevel="signature" />
-    <uses-permission android:name="org.thoughtcrime.securesms.ACCESS_SECRETS" />
+    <uses-permission android:name="com.servalabs.chat.ACCESS_SECRETS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -115,7 +115,7 @@
             android:value="true" />
         <meta-data
             android:name="android.telephony.PROPERTY_SATELLITE_DATA_OPTIMIZED"
-            android:value="org.thoughtcrime.securesms" />
+            android:value="com.servalabs.chat" />
 
         <!-- ======================================= -->
         <!-- Activities                              -->
@@ -371,7 +371,7 @@
             android:windowSoftInputMode="stateUnchanged">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.thoughtcrime.securesms.MainActivity" />
+                android:value="com.servalabs.chat.MainActivity" />
         </activity>
 
         <activity
@@ -560,7 +560,7 @@
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.thoughtcrime.securesms.MainActivity" />
+                android:value="com.servalabs.chat.MainActivity" />
         </activity>
 
         <activity
@@ -714,12 +714,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.servalabs.chat.contact" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name="org.thoughtcrime.securesms.webrtc.VoiceCallShare"
+            android:name="com.servalabs.chat.webrtc.VoiceCallShare"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -730,13 +730,13 @@
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.servalabs.chat.call" />
             </intent-filter>
 
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.servalabs.chat.videocall" />
             </intent-filter>
 
         </activity>
@@ -1403,7 +1403,7 @@
             android:exported="false" />
 
         <service
-            android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallManager$ActiveCallForegroundService"
+            android:name="com.servalabs.chat.service.webrtc.ActiveCallManager$ActiveCallForegroundService"
             android:exported="false"
             android:foregroundServiceType="dataSync|microphone|camera|phoneCall" />
 
@@ -1419,7 +1419,7 @@
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.thoughtcrime.securesms.notifications.CLEAR" />
+                <action android:name="com.servalabs.chat.notifications.CLEAR" />
             </intent-filter>
         </receiver>
 
@@ -1428,7 +1428,7 @@
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.thoughtcrime.securesms.notifications.WEAR_REPLY" />
+                <action android:name="com.servalabs.chat.notifications.WEAR_REPLY" />
             </intent-filter>
         </receiver>
 
@@ -1473,7 +1473,7 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="org.thoughtcrime.securesms.RESTART" />
+                <action android:name="com.servalabs.chat.RESTART" />
             </intent-filter>
         </receiver>
 
@@ -1506,7 +1506,7 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="org.thoughtcrime.securesms.action.PROCESS_MESSAGES" />
+                <action android:name="com.servalabs.chat.action.PROCESS_MESSAGES" />
             </intent-filter>
         </receiver>
 
@@ -1535,7 +1535,7 @@
         </receiver>
 
         <receiver
-            android:name="org.thoughtcrime.securesms.jobs.ForegroundServiceUtil$Receiver"
+            android:name="com.servalabs.chat.jobs.ForegroundServiceUtil$Receiver"
             android:exported="false" />
 
         <receiver
@@ -1560,7 +1560,7 @@
             android:name=".notifications.DeleteNotificationReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.thoughtcrime.securesms.DELETE_NOTIFICATION" />
+                <action android:name="com.servalabs.chat.DELETE_NOTIFICATION" />
             </intent-filter>
         </receiver>
 
@@ -1582,13 +1582,13 @@
         </receiver>
 
         <receiver
-            android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallManager$ActiveCallServiceReceiver"
+            android:name="com.servalabs.chat.service.webrtc.ActiveCallManager$ActiveCallServiceReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.DENY" />
+                <action android:name="com.servalabs.chat.service.webrtc.ActiveCallAction.DENY" />
             </intent-filter>
             <intent-filter>
-                <action android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.HANGUP" />
+                <action android:name="com.servalabs.chat.service.webrtc.ActiveCallAction.HANGUP" />
             </intent-filter>
         </receiver>
 

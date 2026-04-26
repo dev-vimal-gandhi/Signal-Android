@@ -73,7 +73,7 @@
       app:barrierDirection="top"
       app:constraint_referenced_ids="debug_log_submit_button,debug_log_search_nav" />
 
-  <org.thoughtcrime.securesms.components.ConversationSearchBottomBar
+  <com.servalabs.chat.components.ConversationSearchBottomBar
       android:id="@+id/debug_log_search_nav"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -249,9 +249,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/debug_log_levels" />
-  </org.thoughtcrime.securesms.components.ConversationSearchBottomBar>
+  </com.servalabs.chat.components.ConversationSearchBottomBar>
 
-  <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+  <com.servalabs.chat.util.views.CircularProgressMaterialButton
       android:id="@+id/debug_log_submit_button"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -265,7 +265,7 @@
       app:layout_constraintBottom_toBottomOf="parent"
       tools:visibility="visible"/>
 
-  <org.thoughtcrime.securesms.components.ProgressCard
+  <com.servalabs.chat.components.ProgressCard
       android:id="@+id/debug_log_progress_card"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

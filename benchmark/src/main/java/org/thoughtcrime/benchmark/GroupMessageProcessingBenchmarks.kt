@@ -40,7 +40,7 @@ class GroupMessageProcessingBenchmarks {
 
   private fun runGroupMessageReceive(withConversationOpen: Boolean) {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.incomingMessageObserver + BenchmarkMetrics.messageDecryptor + BenchmarkMetrics.messageContentProcessor + BenchmarkMetrics.groupDataMessageProcessor,
       iterations = 3,
       compilationMode = CompilationMode.Partial(),
@@ -67,7 +67,7 @@ class GroupMessageProcessingBenchmarks {
 
   private fun runGroupDeliveryReceipt(withConversationOpen: Boolean) {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.incomingMessageObserver + BenchmarkMetrics.messageDecryptor + BenchmarkMetrics.messageContentProcessor + BenchmarkMetrics.deliveryReceipt,
       iterations = 3,
       compilationMode = CompilationMode.Partial(),
@@ -93,7 +93,7 @@ class GroupMessageProcessingBenchmarks {
 
   private fun runGroupReadReceipt(withConversationOpen: Boolean) {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.incomingMessageObserver + BenchmarkMetrics.messageDecryptor  + BenchmarkMetrics.messageContentProcessor + BenchmarkMetrics.readReceipt,
       iterations = 3,
       compilationMode = CompilationMode.Partial(),

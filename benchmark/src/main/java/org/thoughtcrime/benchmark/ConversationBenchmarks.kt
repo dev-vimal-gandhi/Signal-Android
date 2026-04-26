@@ -25,7 +25,7 @@ class ConversationBenchmarks {
   fun simpleConversationOpen() {
     var setup = false
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = listOf(
         TraceSectionMetric("6-ConversationOpen"),
         TraceSectionMetric("1-ConversationOpen-ViewModel-Init"),

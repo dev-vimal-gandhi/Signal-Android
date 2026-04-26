@@ -25967,7 +25967,7 @@
 
     <issue
         id="UnsafeIntentLaunch"
-        message="This intent could be coming from an untrusted source. It is later launched by an unprotected component org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity. You could either make the component org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity protected; or sanitize this intent using androidx.core.content.IntentSanitizer."
+        message="This intent could be coming from an untrusted source. It is later launched by an unprotected component com.servalabs.chat.components.settings.app.AppSettingsActivity. You could either make the component com.servalabs.chat.components.settings.app.AppSettingsActivity protected; or sanitize this intent using androidx.core.content.IntentSanitizer."
         errorLine1="  override fun onNewIntent(intent: Intent) {"
         errorLine2="                           ~~~~~~~~~~~~~~">
         <location
@@ -26659,7 +26659,7 @@
 
     <issue
         id="StaticFieldLeak"
-        message="This `AsyncTask` class should be static or leaks might occur (org.thoughtcrime.securesms.PassphraseChangeActivity.ChangePassphraseTask)"
+        message="This `AsyncTask` class should be static or leaks might occur (com.servalabs.chat.PassphraseChangeActivity.ChangePassphraseTask)"
         errorLine1="  private class ChangePassphraseTask extends AsyncTask&lt;String, Void, MasterSecret> {"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -26670,7 +26670,7 @@
 
     <issue
         id="StaticFieldLeak"
-        message="This `AsyncTask` class should be static or leaks might occur (org.thoughtcrime.securesms.PassphraseCreateActivity.SecretGenerator)"
+        message="This `AsyncTask` class should be static or leaks might occur (com.servalabs.chat.PassphraseCreateActivity.SecretGenerator)"
         errorLine1="  private class SecretGenerator extends AsyncTask&lt;String, Void, Void> {"
         errorLine2="                ~~~~~~~~~~~~~~~">
         <location

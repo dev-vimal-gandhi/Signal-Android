@@ -63,7 +63,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/verify_header"
                 tools:text="@string/RegistrationActivity_enter_the_code_we_sent_to_s" />
 
-            <org.thoughtcrime.securesms.components.registration.ActionCountDownButton
+            <com.servalabs.chat.components.registration.ActionCountDownButton
                 android:id="@+id/call_me_count_down"
                 style="@style/Signal.Widget.Button.Large.Secondary"
                 android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                 app:layout_constraintVertical_bias="1.0"
                 tools:text="@string/RegistrationActivity_call" />
 
-            <org.thoughtcrime.securesms.components.registration.ActionCountDownButton
+            <com.servalabs.chat.components.registration.ActionCountDownButton
                 android:id="@+id/resend_sms_count_down"
                 style="@style/Signal.Widget.Button.Large.Secondary"
                 android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/code" />
 
-            <org.thoughtcrime.securesms.components.registration.VerificationCodeView
+            <com.servalabs.chat.components.registration.VerificationCodeView
                 android:id="@+id/code"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
 
     </ScrollView>
 
-    <org.thoughtcrime.securesms.components.registration.VerificationPinKeyboard
+    <com.servalabs.chat.components.registration.VerificationPinKeyboard
         android:id="@+id/keyboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:fillViewport="true">
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <com.servalabs.chat.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -36,14 +36,14 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.verify.SafetyNumberQrView
+            <com.servalabs.chat.components.verify.SafetyNumberQrView
                 android:id="@+id/safety_qr_view"
                 android:layout_marginTop="24dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"/>
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <com.servalabs.chat.util.views.LearnMoreTextView
                 android:id="@+id/description"
                 style="@style/Signal.Text.BodyMedium"
                 android:layout_width="match_parent"
@@ -122,7 +122,7 @@
 
             </FrameLayout>
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <com.servalabs.chat.util.views.LearnMoreTextView
                 android:id="@+id/caption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

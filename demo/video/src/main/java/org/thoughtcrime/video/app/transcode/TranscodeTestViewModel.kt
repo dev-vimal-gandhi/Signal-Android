@@ -21,9 +21,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.video.TranscodingPreset
-import org.thoughtcrime.securesms.video.TranscodingQuality
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter
+import com.servalabs.chat.video.TranscodingPreset
+import com.servalabs.chat.video.TranscodingQuality
+import com.servalabs.chat.video.videoconverter.MediaConverter
 import kotlin.math.roundToInt
 
 /**

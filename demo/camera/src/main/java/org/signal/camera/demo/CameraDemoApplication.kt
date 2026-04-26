@@ -6,8 +6,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.Registry
 import org.signal.core.util.logging.AndroidLogger
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mms.RegisterGlideComponents
-import org.thoughtcrime.securesms.mms.SignalGlideModule
+import com.servalabs.chat.mms.RegisterGlideComponents
+import com.servalabs.chat.mms.SignalGlideModule
 
 /**
  * Application class for the camera demo.

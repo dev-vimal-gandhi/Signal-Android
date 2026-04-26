@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         app:elevation="0dp"
         app:expanded="false"
-        app:layout_behavior="org.thoughtcrime.securesms.conversationlist.ConversationFilterBehavior">
+        app:layout_behavior="com.servalabs.chat.conversationlist.ConversationFilterBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlwaysCollapsed|exitUntilCollapsed">
 
-            <org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationListFilterPullView
+            <com.servalabs.chat.conversationlist.chatfilter.ConversationListFilterPullView
                 android:id="@+id/pull_view"
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -66,7 +66,7 @@
 
     </LinearLayout>
 
-    <org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
+    <com.servalabs.chat.components.menu.SignalBottomActionBar
         android:id="@+id/bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

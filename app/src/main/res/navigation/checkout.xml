@@ -13,18 +13,18 @@
 
     <dialog
         android:id="@+id/stripePaymentInProgressFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment"
         android:label="stripe_payment_in_progress_fragment"
         tools:layout="@layout/donation_in_progress_fragment">
 
         <argument
             android:name="action"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction"
+            app:argType="com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction"
             app:nullable="false" />
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="true" />
 
         <argument
@@ -38,13 +38,13 @@
 
     <fragment
         android:id="@+id/creditCardFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.CreditCardFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.card.CreditCardFragment"
         android:label="credit_card_fragment"
         tools:layout="@layout/credit_card_fragment">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
 
         <action
@@ -57,7 +57,7 @@
 
     <dialog
         android:id="@+id/stripe3dsDialogFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.Stripe3DSDialogFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.stripe.Stripe3DSDialogFragment"
         android:label="stripe_3ds_dialog_fragment"
         tools:layout="@layout/donation_webview_fragment">
 
@@ -73,30 +73,30 @@
 
         <argument
             android:name="waiting_for_auth_payment"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPayment"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPayment"
             app:nullable="false" />
     </dialog>
 
     <dialog
         android:id="@+id/yourInformationIsPrivateBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.YourInformationIsPrivateBottomSheet"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.card.YourInformationIsPrivateBottomSheet"
         android:label="your_information_is_private_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet" />
 
     <dialog
         android:id="@+id/paypalPaymentInProgressFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment"
         android:label="paypal_payment_in_progress"
         tools:layout="@layout/donation_in_progress_fragment">
 
         <argument
             android:name="action"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction"
+            app:argType="com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction"
             app:nullable="false" />
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="true" />
 
         <action
@@ -109,7 +109,7 @@
 
     <dialog
         android:id="@+id/paypalConfirmationFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalConfirmationDialogFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.paypal.PayPalConfirmationDialogFragment"
         android:label="paypal_confirmation_dialog_fragment"
         tools:layout="@layout/donation_webview_fragment">
 
@@ -122,24 +122,24 @@
 
     <dialog
         android:id="@+id/paypalCompleteOrderBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalCompleteOrderBottomSheet"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.paypal.PayPalCompleteOrderBottomSheet"
         android:label="paypal_complete_order_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
     </dialog>
 
     <fragment
         android:id="@+id/bankTransferMandateFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.mandate.BankTransferMandateFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.transfer.mandate.BankTransferMandateFragment"
         android:label="bank_transfer_mandate_fragment">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
         <action
             android:id="@+id/action_bankTransferMandateFragment_to_bankTransferDetailsFragment"
@@ -154,12 +154,12 @@
 
     <fragment
         android:id="@+id/bankTransferDetailsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details.BankTransferDetailsFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.transfer.details.BankTransferDetailsFragment"
         android:label="bank_transfer_details_fragment">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
         <action
             android:id="@+id/action_bankTransferDetailsFragment_to_stripePaymentInProgressFragment"
@@ -171,24 +171,24 @@
 
     <dialog
         android:id="@+id/donationPendingBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.DonationPendingBottomSheet"
+        android:name="com.servalabs.chat.components.settings.app.subscription.DonationPendingBottomSheet"
         android:label="donation_pending_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
     </dialog>
 
     <fragment
         android:id="@+id/idealTransferDetailsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsFragment"
         android:label="ideal_transfer_details_fragment">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
         <action
             android:id="@+id/action_bankTransferDetailsFragment_to_stripePaymentInProgressFragment"
@@ -203,7 +203,7 @@
 
     <dialog
         android:id="@+id/idealTransferBankSelectionDialogFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsBankSelectionDialogFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsBankSelectionDialogFragment"
         android:label="ideal_transfer_bank_selection" />
 
     <!-- endregion -->
@@ -212,7 +212,7 @@
 
     <fragment
         android:id="@+id/donateToSignalFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.DonateToSignalFragment"
         android:label="donate_to_signal_fragment"
         tools:layout="@layout/dsl_settings_fragment">
 
@@ -260,20 +260,20 @@
 
     <dialog
         android:id="@+id/gatewaySelectorBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet"
+        android:name="com.servalabs.chat.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet"
         android:label="gateway_selector_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet">
 
         <argument
             android:name="in_app_payment_id"
-            app:argType="org.thoughtcrime.securesms.database.InAppPaymentTable$InAppPaymentId"
+            app:argType="com.servalabs.chat.database.InAppPaymentTable$InAppPaymentId"
             app:nullable="false" />
 
     </dialog>
 
     <dialog
         android:id="@+id/setCurrencyFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.currency.SetCurrencyFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.currency.SetCurrencyFragment"
         android:label="set_currency_fragment"
         tools:layout="@layout/dsl_settings_fragment">
 
@@ -288,20 +288,20 @@
 
     <dialog
         android:id="@+id/thanksForYourSupportBottomSheetDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment"
         android:label="thanks_for_your_support_bottom_sheet_dialog"
         tools:layout="@layout/thanks_for_your_support_bottom_sheet_dialog_fragment">
 
         <argument
             android:name="badge"
-            app:argType="org.thoughtcrime.securesms.badges.models.Badge"
+            app:argType="com.servalabs.chat.badges.models.Badge"
             app:nullable="false" />
 
     </dialog>
 
     <dialog
         android:id="@+id/subscribeLearnMoreBottomSheetDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
+        android:name="com.servalabs.chat.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
         android:label="subscribe_learn_more_bottom_sheet_dialog"
         tools:layout="@layout/subscribe_learn_more_bottom_sheet_dialog_fragment" />
 
@@ -311,7 +311,7 @@
 
     <fragment
         android:id="@+id/giftFlowStartFragment"
-        android:name="org.thoughtcrime.securesms.badges.gifts.flow.GiftFlowStartFragment"
+        android:name="com.servalabs.chat.badges.gifts.flow.GiftFlowStartFragment"
         android:label="GiftFlowStartFragment">
         <action
             android:id="@+id/action_giftFlowStartFragment_to_setCurrencyFragment"
@@ -335,7 +335,7 @@
 
     <fragment
         android:id="@+id/giftFlowRecipientSelectionFragment"
-        android:name="org.thoughtcrime.securesms.badges.gifts.flow.GiftFlowRecipientSelectionFragment"
+        android:name="com.servalabs.chat.badges.gifts.flow.GiftFlowRecipientSelectionFragment"
         android:label="GiftFlowRecipientSelectionFragment">
         <action
             android:id="@+id/action_giftFlowRecipientSelectionFragment_to_giftFlowConfirmationFragment"
@@ -348,7 +348,7 @@
 
     <fragment
         android:id="@+id/giftFlowConfirmationFragment"
-        android:name="org.thoughtcrime.securesms.badges.gifts.flow.GiftFlowConfirmationFragment"
+        android:name="com.servalabs.chat.badges.gifts.flow.GiftFlowConfirmationFragment"
         android:label="GiftFlowConfirmationFragment" >
         <action
             android:id="@+id/action_giftFlowConfirmationFragment_to_gatewaySelectorBottomSheet"

@@ -34,3 +34,8 @@ kls_database.db
 .kotlin
 lefthook-local.yml
 sample-videos/
+rename_pkg.py
+rename_script.py
+fix_protos.py
+fix_strings.py
+move_dirs.py

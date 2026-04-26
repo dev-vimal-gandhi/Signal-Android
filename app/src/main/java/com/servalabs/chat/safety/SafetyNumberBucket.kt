@@ -1,0 +1,10 @@
+package com.servalabs.chat.safety
+
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.recipients.Recipient
+
+sealed class SafetyNumberBucket {
+  data class DistributionListBucket(val distributionListId: DistributionListId, val name: String) : SafetyNumberBucket()
+  data class GroupBucket(val recipient: Recipient) : SafetyNumberBucket()
+  object ContactsBucket : SafetyNumberBucket()
+}

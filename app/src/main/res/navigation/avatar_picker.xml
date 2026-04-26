@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/avatarPickerFragment"
-        android:name="org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment"
+        android:name="com.servalabs.chat.avatar.picker.AvatarPickerFragment"
         android:label="fragment_pick_avatar"
         tools:layout="@layout/avatar_picker_fragment">
         <action
@@ -41,7 +41,7 @@
 
         <argument
             android:name="group_id"
-            app:argType="org.thoughtcrime.securesms.groups.GroupId"
+            app:argType="com.servalabs.chat.groups.GroupId"
             app:nullable="true" />
 
         <argument
@@ -57,7 +57,7 @@
 
     <fragment
         android:id="@+id/vectorAvatarCreationFragment"
-        android:name="org.thoughtcrime.securesms.avatar.vector.VectorAvatarCreationFragment"
+        android:name="com.servalabs.chat.avatar.vector.VectorAvatarCreationFragment"
         android:label="fragment_vector_avatar_creation">
         <argument
             android:name="vector_avatar"
@@ -66,7 +66,7 @@
 
     <fragment
         android:id="@+id/textAvatarCreationFragment"
-        android:name="org.thoughtcrime.securesms.avatar.text.TextAvatarCreationFragment"
+        android:name="com.servalabs.chat.avatar.text.TextAvatarCreationFragment"
         android:label="fragment_text_avatar_creation">
         <argument
             android:name="text_avatar"
@@ -76,7 +76,7 @@
 
     <activity
         android:id="@+id/avatarPhotoEditorActivity"
-        android:name="org.thoughtcrime.securesms.avatar.photo.PhotoEditorActivity"
+        android:name="com.servalabs.chat.avatar.photo.PhotoEditorActivity"
         android:label="fragment_avatar_photo_editor">
         <argument
             android:name="photo_avatar"

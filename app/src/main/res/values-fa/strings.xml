@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2024 Signal Messenger, LLC
+  ~ Copyright 2024 Serva Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
 <!-- smartling.instruction_comments_enabled = on -->
 <resources>
-  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Serva Chat</string> -->
 
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://signal.org/install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://signal.org/donate</string> -->
@@ -33,13 +33,13 @@
     <string name="save">ذخیره</string>
     <string name="note_to_self">یادداشت برای خود</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the Serva Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">آب‌وهوا</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the Serva Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">یادداشت‌ها</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the Serva Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">اخبار</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the Serva Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">امواج</string>
 
     <!-- AlbumThumbnailView -->
@@ -97,22 +97,22 @@
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">نظرسنجی</string>
     <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">سیگنال برای نشان دادن عکس‌ها و ویدیوهایتان به مجوز نیاز دارد</string>
-    <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
+    <!-- Text for a button prompting users to allow Serva access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">اجازۀ دسترسی بدهید</string>
     <string name="AttachmentKeyboard_payment">پرداخت</string>
-    <!-- Text in a button that allows users to manage which media Signal has access to -->
+    <!-- Text in a button that allows users to manage which media Serva has access to -->
     <string name="AttachmentKeyboard_manage">مدیریت</string>
-    <!-- Option in menu to select more photos that Signal will have access to -->
+    <!-- Option in menu to select more photos that Serva will have access to -->
     <string name="AttachmentKeyboard_select_more_photos">انتخاب عکس‌های بیشتر</string>
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">به تنظیمات بروید</string>
-    <!-- Text explaining that Signal has limited access to photos -->
+    <!-- Text explaining that Serva has limited access to photos -->
     <string name="AttachmentKeyboard_signal_has_limited_access">سیگنال دسترسی محدودی به عکس‌ها یا ویدیوها دارد</string>
-    <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
+    <!-- Text shown when user has given no photos for Serva to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">عکسی یافت نشد، عکس‌ها و ویدیوها را انتخاب کنید تا اینجا نمایش داده شوند یا مجوزها را تغییر دهید</string>
 
     <!-- MediaGalleryFragment -->
-    <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
+    <!-- Text describing that no photos or videos are currently found in the gallery and that Serva can only access media that the user allows -->
     <string name="MediaGalleryFragment__no_photos_found">هیچ عکس یا ویدیویی یافت نشد. سیگنال فقط به عکس‌ها و ویدیوهایی که انتخاب کرده‌اید دسترسی دارد.</string>
 
     <!-- AttachmentManager -->
@@ -127,13 +127,13 @@
     <string name="AttachmentManager_signal_to_send_location">برای ارسال موقعیت مکانی‌تان:</string>
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">برای ارسال موقعیت مکانی، به سیگنال اجازۀ دسترسی دهید.</string>
-    <!-- Toast text explaining Signal\'s need for location access -->
+    <!-- Toast text explaining Serva\'s need for location access -->
     <string name="AttachmentManager_signal_needs_location_access">سیگنال برای ارسال موقعیت مکانی شما باید به موقعیت مکانی دسترسی داشته باشد.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">اجازۀ دسترسی به فضای ذخیره‌سازی</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">برای نمایش عکس‌ها و ویدیوها:</string>
-    <!-- Toast text explaining Signal\'s need for storage access -->
+    <!-- Toast text explaining Serva\'s need for storage access -->
     <string name="AttachmentManager_signal_needs_storage_access">سیگنال برای نمایش عکس‌ها و ویدیوهایتان نیاز به دسترسی دارد.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
@@ -218,15 +218,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">شما دیگر از این گروه پیام و به‌روزرسانی دریافت نخواهید کرد و اعضا قادر نخواهند بود دوباره شما را به این گروه اضافه کنند.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">اعضای گروه قادر نخواهند بود دوباره شما را به این گروه اضافه کنند.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">اعضای گروه می‌توانند دوباره شما را به این گروه اضافه کنند.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a Serva contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">شما می‌توانید به دیگران پیام دهید و با آن‌ها تماس بگیرید و نام و عکس شما با آن‌ها به اشتراک گذاشته خواهد شد.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">شما قادر خواهید بود به یکدیگر پیام دهید.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">افراد مسدودشده قادر به برقراری تماس با شما یا ارسال پیام به شما نخواهند بود.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">افراد مسدودشده قادر به ارسال پیام به شما نخواهند بود.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the Serva release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">دریافت به‌روزرسانی‌ها و اخبار سیگنال را مسدود کنید.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the Serva release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">دریافت به‌روزرسانی‌ها و اخبار سیگنال را از سر بگیرید.</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s رفع مسدودیت شود؟</string>
     <string name="BlockUnblockDialog_block">مسدود کردن</string>
@@ -289,21 +289,21 @@
     <string name="CameraXFragment_allow_access_camera">اجازه دسترسی به دوربین</string>
     <!-- Dialog title asking users for microphone permission -->
     <string name="CameraXFragment_allow_access_microphone">اجازۀ دسترسی به میکروفون‌تان</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos -->
+    <!-- Text explaining why Serva needs camera access in order to take photos -->
     <string name="CameraXFragment_to_capture_photos_allow_camera">برای گرفتن عکس، به سیگنال اجازه دهید به دوربین دسترسی داشته باشد.</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos and videos -->
+    <!-- Text explaining why Serva needs camera access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">برای ضبط عکس و ویدئو، به سیگنال اجازه دهید به دوربین شما دسترسی داشته باشد.</string>
-    <!-- Text explaining why Signal needs camera and microphone access in order to take photos and videos -->
+    <!-- Text explaining why Serva needs camera and microphone access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">برای گرفتن عکس و ویدیو، به سیگنال اجازه دهید به دوربین و میکروفن دسترسی داشته باشد.</string>
-    <!-- Text explaining why Signal needs microphone access to take videos -->
+    <!-- Text explaining why Serva needs microphone access to take videos -->
     <string name="CameraXFragment_to_capture_videos_with_sound">برای گرفتن ویدیوهای صدادار، به سیگنال اجازه دهید به میکروفن شما دسترسی داشته باشد.</string>
-    <!-- Text explaining why Signal needs camera access to scan QR codes -->
+    <!-- Text explaining why Serva needs camera access to scan QR codes -->
     <string name="CameraXFragment_to_scan_qr_code_allow_camera">برای اسکن کد QR، به سیگنال اجازه دهید به دوربین دسترسی داشته باشد.</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
+    <!-- Toast dialog explaining why Serva needs camera permissions when capturing photos -->
     <string name="CameraXFragment_signal_needs_camera_access_capture_photos">سیگنال برای گرفتن عکس نیاز به دسترسی به دوربین دارد</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
+    <!-- Toast dialog explaining why Serva needs camera permissions when scanning QR codes -->
     <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">سیگنال برای اسکن کردن کدهای QR نیاز به دسترسی به دوربین دارد</string>
-    <!-- Toast dialog explaining why Signal needs microphone permissions -->
+    <!-- Toast dialog explaining why Serva needs microphone permissions -->
     <string name="CameraXFragment_signal_needs_microphone_access_video">سیگنال برای گرفتن ویدیو نیاز به دسترسی به میکروفن دارد</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
     <string name="CameraXFragment_to_capture_photos">برای گرفتن عکس در سیگنال:</string>
@@ -311,7 +311,7 @@
     <string name="CameraXFragment_to_capture_photos_videos">برای گرفتن عکس و ویدیو در سیگنال:</string>
     <!-- Dialog description that explains the steps needed to give microphone permission -->
     <string name="CameraXFragment_to_capture_videos">برای گرفتن ویدیوهای صدادار:</string>
-    <!-- Dialog description that explains the steps needed to give Signal camera permissions -->
+    <!-- Dialog description that explains the steps needed to give Serva camera permissions -->
     <string name="CameraXFragment_to_scan_qr_codes">برای اسکن کردن کدهای QR:</string>
     <!-- Error message shown when we try to take a photo, but fail -->
     <string name="CameraXFragment_photo_capture_failed">ثبت عکس ناموفق بود. لطفاً دوباره امتحان کنید.</string>
@@ -533,7 +533,7 @@
     <string name="ConversationActivity_signal_to_send_audio_messages">برای ارسال پیام صوتی:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">برای ارسال پیام‌های صوتی، به سیگنال اجازۀ دسترسی به میکروفون را بدهید.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access -->
+    <!-- Toast text explaining Serva\'s need for microphone access -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_message">سیگنال برای ضبط پیام صوتی باید به میکروفون دسترسی داشته باشد.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">سیگنال برای ارسال پیام های صوتی نیاز به مجوز میکروفون دارد، ولی این اجازه به صورت دائم رد شده است. لطفاً به تنظیمات برنامه رفته، «مجوزها» را انتخاب کنید و «میکروفون» را فعال کنید.</string>
 
@@ -565,7 +565,7 @@
     <string name="ConversationActivity__to_start_call">برای شروع تماس:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
     <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">برای شروع تماس، به سیگنال اجازۀ دسترسی به میکروفون را بدهید.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
+    <!-- Toast text explaining Serva\'s need for microphone access for a voice call -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_call">سیگنال برای شروع تماس باید به میکروفون دسترسی داشته باشد.</string>
 
 
@@ -579,7 +579,7 @@
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported">پیامک دیگر در سیگنال پشتیبانی نمی‌شود.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">پیامک دیگر در سیگنال پشتیبانی نمی‌شود. برای ادامه مکالمه در اینجا، %1$s را به سیگنال دعوت کنید.</string>
-    <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
+    <!-- Message shown when opening a conversation with an unregistered user who used to be on Serva -->
     <string name="ConversationActivity__this_person_is_no_longer_using_signal">این شخص دیگر از سیگنال استفاده نمی‌کند. برای ادامۀ مکالمه در اینجا، او را به سیگنال دعوت کنید.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">دعوت به سیگنال</string>
@@ -718,7 +718,7 @@
     <string name="ConversationFragment_name_not_verified">نام تأیید نشده است</string>
     <!-- Label for official chat pill shown in the Note to Self conversation header -->
     <string name="ConversationFragment_official_chat">گفتگوی رسمی</string>
-    <!-- Description shown in the Signal release notes conversation header -->
+    <!-- Description shown in the Serva release notes conversation header -->
     <string name="ConversationFragment_release_notes_description">تنها گفتگوی رسمی از سیگنال. از اخبار و تغییرات جدید با خبر شوید.</string>
     <!-- Plural for group member count shown in conversation header. %1$d is the number of members -->
     <plurals name="ConversationFragment_group_member_count">
@@ -757,7 +757,7 @@
     <!-- Content description for next tip button -->
     <string name="SafetyTips_next_tip">نکتۀ بعدی</string>
 
-    <!-- Summary tip 0 title: Don\'t respond to chats from Signal -->
+    <!-- Summary tip 0 title: Don\'t respond to chats from Serva -->
     <string name="SafetyTips_summary_tip0_title">به گفتگوها از سیگنال پاسخ ندهید</string>
     <!-- Summary tip 0 message -->
     <string name="SafetyTips_summary_tip0_message">سیگنال هیچ‌وقت برای کد ثبت‌نام، پین یا رمز بازیابی به شما پیام نمی‌دهد. هیچ‌وقت به گفتگویی که وانمود می‌کند سیگنال است پاسخ ندهید.</string>
@@ -797,9 +797,9 @@
 
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">‏%1$s در سیگنال توسط دارنده حساب انتخاب می‌شود.</string>
-    <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
+    <!-- Bottom sheet text explaining that Serva can\'t verify names and photos -->
     <string name="ProfileNameBottomSheet__signal_cant_verify">سیگنال نمی‌تواند نام‌ها و عکس‌ها را تأیید کند</string>
-    <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
+    <!-- Bottom sheet text explaining that Serva will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">سیگنال هیچ‌وقت برای کد ثبت‌نام، پین یا رمز بازیابی با شما تماس نمی‌گیرد</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
     <string name="ProfileNameBottomSheet__be_cautious_of_accounts">مراقب حساب‌هایی باشید که خود را به جای دیگران جا می‌زنند</string>
@@ -1105,19 +1105,19 @@
     <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">سیگنال از رمزگذاری سرتاسر استفاده می‌کند و شاید گاهی نیاز به تازه‌سازی نشست گفتگو‌ی شما داشته باشد. این کار روی امنیت گفتگو‌‌ی شما تأثیری نمی‌گذارد، اما ممکن است شما پیامی را از این مخاطب از دست داده باشید، و می‌توانید از آن‌ها بخواهید که آن را دوباره ارسال کنند.</string>
 
     <!-- LinkDeviceFragment -->
-    <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
+    <!-- Description for how Serva will work with a linked device (eg desktop, iPad) -->
     <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">از این حساب سیگنال در دسک‌تاپ یا آی‌پد استفاده کنید.</string>
     <!-- Button prompting users to link a new device to their account -->
     <string name="LinkDeviceFragment__link_a_new_device">اتصال دستگاه جدید</string>
     <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
     <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$s پیام‌ها و اطلاعات گفتگو با رمزگذاری سرتاسری در همه دستگاه‌ها محافظت می‌شوند</string>
-    <!-- Bottom sheet title explaining how Signal works on a linked device -->
+    <!-- Bottom sheet title explaining how Serva works on a linked device -->
     <string name="LinkDeviceFragment__signal_on_desktop_ipad">سیگنال روی دسک‌تاپ یا آی‌پد</string>
     <!-- Bottom sheet description explaining that messages on linked devices are private -->
     <string name="LinkDeviceFragment__all_messaging_is_private">همۀ پیام‌ها در دستگاه‌های متصل خصوصی هستند</string>
     <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
     <string name="LinkDeviceFragment__signal_messages_are_synchronized">پس از متصل شدن تلفن، پیام‌های سیگنال با سیگنال در تلفن همراهتان همگام‌سازی می‌شوند. تاریخچه پیام‌های قبلی شما ظاهر نخواهد شد.</string>
-    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
+    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Serva where %s is Serva\'s website -->
     <string name="LinkDeviceFragment__on_other_device_visit_signal">در دستگاهی که می‌خواهید پیوند دهید، برای نصب سیگنال به %1$s بروید</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
     <!-- Header title listing out current linked devices -->
@@ -1142,7 +1142,7 @@
     <string name="LinkDeviceFragment__unlock_to_link">برای متصل کردن دستگاه، قفل را باز کنید</string>
     <!-- Title on bottom sheet explaining our usage of biometrics to link a device -->
     <string name="LinkDeviceFragment__before_linking">قبل از متصل کردن، تأیید کنید که خودتان هستید</string>
-    <!-- Body of bottom sheet explaining that users should use their device pin or biometrics and not their Signal pin -->
+    <!-- Body of bottom sheet explaining that users should use their device pin or biometrics and not their Serva pin -->
     <string name="LinkDeviceFragment__tap_continue_and_enter_phone">روی «ادامه» ضربه بزنید و برای تأیید، قفل تلفنتان را باز کنید. پین سیگنال خود را وارد نکنید.</string>
     <!-- Button that dismisses the bottom sheet -->
     <string name="LinkDeviceFragment__continue">ادامه</string>
@@ -1167,7 +1167,7 @@
     <string name="LinkDeviceFragment__sync_failure_body">پیام‌های شما به دستگاه متصل‌شده‌تان منتقل نشد. می‌توانید دوباره اتصال و انتقال را امتحان کنید، یا بدون انتقال تاریخچه پیام ادامه دهید.</string>
     <!-- Body of a dialog letting the user know that syncing messages to their linked device failed but the device was still able to be linked -->
     <string name="LinkDeviceFragment__sync_failure_body_unretryable">دستگاهتان با موفقیت متصل شد، اما پیام‌هایتان منتقل نشد.</string>
-    <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
+    <!-- Text button in a dialog that, when pressed, will redirect to the Serva support page -->
     <string name="LinkDeviceFragment__learn_more">اطلاعات بیشتر</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
     <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
@@ -1273,9 +1273,9 @@
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
     <string name="DeprecatedSdkBanner_body">سیگنال دیگر در این دستگاه کار نمی‌کند. برای استفاده مجدد از سیگنال، دستگاه خود را به نسخه جدیدتر اندروید به‌روزرسانی کنید یا از دستگاه جدیدتری استفاده کنید.</string>
 
-    <!-- Title of notification telling users to update Signal -->
+    <!-- Title of notification telling users to update Serva -->
     <string name="DeprecatedNotificationJob_update_signal">به‌روزرسانی سیگنال</string>
-    <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
+    <!-- Message body of notification telling users that this current version of Serva has expired. If pressed, we will direct them to the website APK or PlayStore page -->
     <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">این نسخه سیگنال منقضی شده است. برای ارسال و دریافت پیام‌ها، ضربه بزنید تا به‌روزرسانی شود.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -1442,7 +1442,7 @@
     <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">برای اطمینان از عدم تأخیر اعلان‌های پیام، بهینه‌سازی باتری را برای سیگنال غیرفعال کنید. برای مشاهده دستورالعمل‌های مخصوص دستگاه، روی «ادامه» ضربه بزنید.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">نه ممنون</string>
-    <!-- Button to continue and go to Signal support website -->
+    <!-- Button to continue and go to Serva support website -->
     <string name="DeviceSpecificNotificationBottomSheet__continue">ادامه</string>
 
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
@@ -1594,9 +1594,9 @@
     <string name="RemoteRestoreActivity__error_occurred">خطایی رخ داد و انتقال حسابتان انجام نشد. با انتخاب روش انتقال، دوباره امتحان کنید.</string>
     <!-- Dialog title displayed when remote restore failed because of an outdated backup version. -->
     <string name="RemoteRestoreActivity__couldnt_restore">این نسخه پشتیبان بازیابی نشد</string>
-    <!-- Dialog message explaining that an update to Signal is required to restore the backup. -->
+    <!-- Dialog message explaining that an update to Serva is required to restore the backup. -->
     <string name="RemoteRestoreActivity__update_latest">این نسخه از سیگنال نمی‌تواند نسخه پشتیبان شما را بازیابی کند. به آخرین نسخه به‌روزرسانی کنید و دوباره امتحان کنید.</string>
-    <!-- Text on button that when pressed will redirect them to update Signal -->
+    <!-- Text on button that when pressed will redirect them to update Serva -->
     <string name="RemoteRestoreActivity__update_signal">به‌روزرسانی سیگنال</string>
     <!-- Text label button to dismiss the dialog -->
     <string name="RemoteRestoreActivity__not_now">حالا نه</string>
@@ -1787,7 +1787,7 @@
         <item quantity="other">ارسال %1$d پیامک دعوت؟</item>
     </plurals>
     <string name="InviteActivity_lets_switch_to_signal">بیایید از سیگنال استفاده کنیم: %1$s</string>
-    <!-- Toast shown when Signal is unable to find an external app to share the Invite text string to -->
+    <!-- Toast shown when Serva is unable to find an external app to share the Invite text string to -->
     <string name="InviteActivity_no_app_to_share_to">به نظر می‌رسد شما هیچ برنامه‌ای برای ‌اشتراک‌گذاری ندارید.</string>
 
     <!-- LearnMoreTextView -->
@@ -2256,7 +2256,7 @@
     <string name="MessageRecord_you_blocked_this_group">شما این گروه را مسدود کردید</string>
     <!-- Update message shown in chat after you unblock a group -->
     <string name="MessageRecord_you_unblocked_this_group">شما این گروه را رفع مسدودیت کردید</string>
-    <!-- Update message shown when you receive a message that cannot be processed because your Signal version is too old. %1$s is the sender\'s name -->
+    <!-- Update message shown when you receive a message that cannot be processed because your Serva version is too old. %1$s is the sender\'s name -->
     <string name="MessageRecord_unsupported_feature">پیامی را برای شما ارسال کرد که پردازش یا نمایش داده نمی شود زیرا از ویژگی جدید سیگنال استفاده می کند.%1$s</string>
     <!-- Update message shown when someone ends the poll. %1$s is the person who ended the poll and %2$s is the poll question. -->
     <string name="MessageRecord_ended_the_poll">‏%1$s نظرسنجی «%2$s» را به پایان رساند</string>
@@ -2272,11 +2272,11 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">اجازه می‌دهید که %1$s به شما پیام بفرستد و نام و عکس‌تان با او به اشتراک گذاشته شود؟ این شخص را در گذشته حذف کرده‌اید.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">به این فرد اجازه می‌دهید که به شما پیام دهد و نام و عکس خود را با آن‌ها به اشتراک می‌گذارید؟ تا زمانی که نپذیرید او متوجه نمی‌شود که پیامش را خوانده‌اید.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a Serva user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">می‌خواهید به %1$s اجازه دهید به شما پیام دهد و نام و عکستان را با او به اشتراک بگذارید؟ تا وقتی او را رفع مسدودیت نکنید هیچ پیامی دریافت نخواهید کرد.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">می‌خواهید اجازه دهید %1$s به شما پیام دهد؟ تا وقتی او را رفع مسدودیت نکنید، هیچ پیامی دریافت نخواهید کرد.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock the Signal release notes channel -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock the Serva release notes channel -->
     <string name="MessageRequestBottomView_get_updates_and_news_from_s_you_wont_receive_any_updates_until_you_unblock_them">می‌خواهید به‌روزرسانی‌ها و تازه‌های %1$s را دریافت کنید؟ تا مسدودیت آن‌ها را رفع نکنید به‌روزرسانی دریافت نخواهید کرد.</string>
     <string name="MessageRequestBottomView_continue_your_conversation_with_this_group_and_share_your_name_and_photo">آیا به گفتگو‌ی خود با این گروه ادامه می‌دهید و نام و عکس خود را با اعضای آن به اشتراک می‌گذارید؟</string>
     <string name="MessageRequestBottomView_upgrade_this_group_to_activate_new_features">این گروه قدیمی دیگر قابل استفاده نیست. برای فعال‌سازی قابلیت‌های جدید مانند @اشاره‌ها و مدیرها، گروه جدیدی ایجاد کنید.</string>
@@ -2340,7 +2340,7 @@
     <string name="MessageRequestBottomView_review_requests_carefully">درخواست‌ها را با دقت بازنگری کنید. نام نمایه توسط دارنده حساب انتخاب می‌شود و نیاز به تأیید ندارد.</string>
     <!-- Alert dialog body for accepting a message request. Contains bold substring placeholder -->
     <string name="MessageRequestBottomView_accept_request_body">درخواست‌ها را فقط از افراد مورد اعتمادتان بپذیرید. ‏%1$s برای کد ثبت‌نام، پین یا رمز بازیابی به شما پیام می‌دهد.</string>
-    <!-- Bold substring used in accept request body: "Signal will never" -->
+    <!-- Bold substring used in accept request body: "Serva will never" -->
     <string name="MessageRequestBottomView_signal_will_never">سیگنال هیچ‌وقت</string>
     <!-- Alert dialog title to accept a message request to join a group -->
     <string name="MessageRequestBottomView_join_group">به گروه می‌پیوندید؟</string>
@@ -2957,11 +2957,11 @@
     <string name="SharedContactView_invite_to_signal">دعوت به سیگنال</string>
     <string name="SharedContactView_message">پیام سیگنال</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- ServaBottomActionBar -->
     <!-- Text to describe a button that will show more options -->
     <string name="SignalBottomActionBar_more">بیشتر</string>
 
-    <!-- SignalPinReminders -->
+    <!-- ServaPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">پین با موفقیت تایید شد. بعدا دوباره به شما یادآوری خواهیم کرد.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">پین با موفقیت تایید شد. فردا دوباره به شما یادآوری خواهیم کرد.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">پین با موفقیت تایید شد. چند روز دیگر دوباره به شما یادآوری خواهیم کرد.</string>
@@ -3108,8 +3108,8 @@
     <string name="SupportEmailUtil_filter">فیلتر:</string>
     <string name="SupportEmailUtil_device_info">اطلاعات دستگاه:</string>
     <string name="SupportEmailUtil_android_version">نسخهٔ اندروید:</string>
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">Signal version:</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Signal package:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">Serva version:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Serva package:</string> -->
     <string name="SupportEmailUtil_registration_lock">قفل ثبت‌نام:</string>
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_locale" translatable="false">Locale:</string> -->
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_challenge_received" translatable="false">Challenge Received:</string> -->
@@ -3596,7 +3596,7 @@
     <string name="contact_selection_activity__refresh_contacts">تازه‌سازی مخاطبان</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">کسی از قلم افتاده است؟ تازه‌سازی کنید</string>
-    <!-- Row item title for finding people on Signal via your contacts -->
+    <!-- Row item title for finding people on Serva via your contacts -->
     <string name="contact_selection_activity__find_people_you_know">آشنایان خود را در سیگنال پیدا کنید</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">اجازه دسترسی به مخاطبان</string>
@@ -3637,9 +3637,9 @@
     <string name="ContactSelectionListFragment_allow_access_contacts">اجازه دسترسی به مخاطبان</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
     <string name="ContactSelectionListFragment_to_find_people">برای پیدا کردن آشنایان در سیگنال:</string>
-    <!-- Text on button prompting users to give Signal contact permissions -->
+    <!-- Text on button prompting users to give Serva contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">اجازۀ دسترسی بدهید</string>
-    <!-- Text on button to dismiss Signal\'s request for contact permissions -->
+    <!-- Text on button to dismiss Serva\'s request for contact permissions -->
     <string name="ContactSelectionListFragment__no_thanks">نه ممنون</string>
     <!-- Text asking for user\'s contact permission -->
     <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">اجازه دسترسی به مخاطبان خود را بدهید. مخاطبان شما رمزگذاری‌شده و برای سرویس سیگنال قابل‌مشاهده نیستند.</string>
@@ -3809,7 +3809,7 @@
     <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">همه چیز حالا خوب بنظر می‌رسد!</string>
     <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">برای دریافت اعلان‌ها‌ی تماس، اینجا ضربه بزنید و «نمایش اعلان‌ها‌» را روشن کنید.</string>
     <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_notifications">برای دریافت اعلان‌ها‌ی تماس، اینجا ضربه بزنید و اعلان‌ها را روشن کنید و مطمئن شوید صدا و پاپ‌آپ فعال شده‌ اند.</string>
-    <!-- Message shown when Signal determines potential issues with getting call notifications and how to fix it -->
+    <!-- Message shown when Serva determines potential issues with getting call notifications and how to fix it -->
     <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">برای دریافت اعلان‌ها‌ی تماس، اینجا ضربه بزنید و فعالیت پس‌زمینه را در تنظیمات «باتری» فعال کنید. </string>
     <string name="EnableCallNotificationSettingsDialog__settings">تنظیمات</string>
     <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">برای دریافت اعلان‌ها‌ی تماس، روی تنظیمات ضربه بزنید و «نمایش اعلان‌ها» را روشن کنید.</string>
@@ -3952,11 +3952,11 @@
     <string name="EditProfileFragment__group_name">نام گروه</string>
     <string name="EditProfileFragment__group_description">توضیحات گروه</string>
   <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
-    <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
+    <!-- The title of a dialog prompting user to update to the latest version of Serva. -->
     <string name="EditProfileFragment_deprecated_dialog_title">به‌روزرسانی سیگنال</string>
-    <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
+    <!-- The body of a dialog prompting user to update to the latest version of Serva. -->
     <string name="EditProfileFragment_deprecated_dialog_body">این نسخه سیگنال منقضی شده است. برای ادامه استفاده از سیگنال، همین حالا به‌روزرسانی کنید.</string>
-    <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
+    <!-- The button on a dialog prompting user to update to the latest version of Serva. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">به‌روزرسانی</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
     <string name="EditProfileFragment_unregistered_dialog_title">دستگاه ثبت نشده است</string>
@@ -4238,7 +4238,7 @@
     <string name="preferences__help">راهنمایی</string>
     <string name="preferences__advanced">پیشرفته</string>
     <string name="preferences__donate_to_signal">اهدای کمک مالی به سیگنال</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to Serva -->
     <string name="preferences__privacy">حریم خصوصی</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">استوری‌ها</string>
@@ -4366,7 +4366,7 @@
     <string name="preferences_notifications__show">نمایش</string>
     <string name="preferences_notifications__ringtone">صدای زنگ</string>
     <string name="preferences_chats__message_text_size">اندازهٔ قلم پیام</string>
-    <!-- Option in settings that will provide a shortcut to notification system settings to control the priority of Signal notifications -->
+    <!-- Option in settings that will provide a shortcut to notification system settings to control the priority of Serva notifications -->
     <string name="preferences_notifications__priority">اولویت</string>
     <!-- Option in settings to trouble shoot delayed notifications -->
     <string name="preferences_notifications__troubleshoot">اعلان‌های عیب‌یابی</string>
@@ -4379,7 +4379,7 @@
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">عبور از فیلترینگ بر اساس شماره تلفن شما فعال شد.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">شما عبور از فیلترینگ را به صورت دستی غیرفعال کردید.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Serva service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">نیازی به دورزدن سانسور نیست؛ شما به سرویس سیگنال دسترسی مستقیم دارید.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">عبور از فیلترینگ تنها زمانی می‌تواند فعال شود که اینترنت متصل باشد.</string>
@@ -4941,17 +4941,17 @@
     <string name="UpdatePinMegaphone__update_pin">به‌روزرسانی پین</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
+    <!-- Displayed in a notification when a Serva voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">تماس صوتی ورودی سیگنال</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
+    <!-- Displayed in a notification when a Serva video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">تماس تصویری ورودی سیگنال</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
+    <!-- Displayed in a notification when a Serva group call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_group_call">تماس ورودی گروهی سیگنال</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
+    <!-- Displayed in a notification when a Serva voice call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_voice_call">تماس تصویری سیگنال در جریان است</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
+    <!-- Displayed in a notification when a Serva video call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_video_call">تماس تصویری سیگنال در جریان است</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
+    <!-- Displayed in a notification when a Serva group call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_group_call">تماس گروهی سیگنال در جریان است</string>
 
     <!-- transport_selection_list_item -->
@@ -5005,7 +5005,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">گذرواژه نادرست بود</string>
     <string name="LocalBackupJob_creating_signal_backup">در حال ایجاد پشتیبان سیگنال…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان Signal…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان Serva…</string>
     <string name="LocalBackupJobApi29_backup_failed">پشتیبان‌گیری ناموفق بود</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">آدرس ذخیره‌سازی پشتیبان شما پاک شده یا به جای دیگری انتقال یافته است.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">حجم فایل پشتیبان شما برای نگهداری در این محل زیاد است.</string>
@@ -5080,13 +5080,13 @@
     <string name="RegistrationActivity_error_connecting_to_service">خطا در برقراری ارتباط با سرویس</string>
     <string name="preferences_chats__backups">نسخه‌های پشتیبان</string>
 
-    <!-- Title text shown when Signal is locked and needs to be unlocked -->
+    <!-- Title text shown when Serva is locked and needs to be unlocked -->
     <string name="prompt_passphrase_activity__unlock_signal">باز کردن قفل سیگنال</string>
-    <!-- Description text explaining how to unlock Signal -->
+    <!-- Description text explaining how to unlock Serva -->
     <string name="prompt_passphrase_activity__use_your_android_device">از تنظیمات قفل دستگاه اندروید خود برای باز کردن قفل سیگنال استفاده کنید.</string>
-    <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
+    <!-- Text shown in a dialog that further explains how to unlock Serva by using the same unlocking methods that are used to unlock their own device -->
     <string name="prompt_passphrase_activity__screen_lock_is_on">قفل صفحه روشن است و سیگنال با تنظیمات قفل دستگاه شما ایمن شده است. قفل سیگنال را به همان روشی باز کنید که معمولاً قفل گوشی خود را باز می‌کنید، مثل باز کردن قفل با چهره، باز کردن قفل با اثر انگشت، پین، رمز عبور یا الگو.</string>
-    <!-- Button in a dialog that will contact Signal support if pressed -->
+    <!-- Button in a dialog that will contact Serva support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">ارتباط با پشتیبانی</string>
     <!-- Button text to try again after unlocking has previously failed -->
     <string name="prompt_passphrase_activity__try_again">دوباره امتحان کنید</string>
@@ -5650,7 +5650,7 @@
     <string name="AppSettingsFragment__couldnt_redeem_your_backups_subscription">اشتراک نسخه‌های پشتیبان شما آزادسازی نشد</string>
     <!-- String alerting user that backup storage limit has been reached -->
     <string name="AppSettingsFragment__backup_storage_limit_reached">فضای ذخیره‌سازی نسخه پشتیبان به انتها رسید</string>
-    <!-- String displayed telling user to invite their friends to Signal -->
+    <!-- String displayed telling user to invite their friends to Serva -->
     <string name="AppSettingsFragment__invite_your_friends">دوستان خود را دعوت کنید</string>
     <!-- String displayed in a toast when we successfully copy the donations subscriber id to the clipboard -->
     <string name="AppSettingsFragment__copied_donor_subscriber_id_to_clipboard">شناسه اشتراک اهداکننده در کلیپ‌بورد کپی شد</string>
@@ -6005,12 +6005,12 @@
     <string name="HelpSettingsFragment__contact_us">تماس با ما</string>
     <string name="HelpSettingsFragment__version">نسخه</string>
     <string name="HelpSettingsFragment__debug_log">گزارش عیب‌یابی</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Serva app-->
     <string name="HelpSettingsFragment__licenses">گواهینامه‌ها</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">شرایط و خط مشی حریم خصوصی</string>
     <string name="HelpFragment__copyright_signal_messenger">حق تکثیر پیام‌رسان سیگنال</string>
     <string name="HelpFragment__licenced_under_the_agplv3">دارای مجوز GNU AGPLv3</string>
-    <!-- Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
+    <!-- Non-English translations should use "Serva is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="HelpSettingsFragment__signal_is_a_501c3">سیگنال یک شرکت غیرانتفاعی است</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -6424,9 +6424,9 @@
     <!-- The label of a dialog asking the user if they would like to start a chat with a specific user. -->
     <string name="MediaCaptureFragment_username_dialog_go_to_chat_button">به گفتگو بروید</string>
 
-    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Serva device. -->
     <string name="MediaCaptureFragment_device_link_dialog_title">دستگاه متصل شود؟</string>
-    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Serva device. -->
     <string name="MediaCaptureFragment_it_looks_like_youre_trying">به نظر می‌رسد می‌خواهید یک دستگاه سیگنال را متصل کنید. روی ادامه و سپس روی «اتصال دستگاه جدید» ضربه بزنید و دوباره کد QR را اسکن کنید.</string>
     <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
     <string name="MediaCaptureFragment_device_link_dialog_continue">ادامه</string>
@@ -6473,12 +6473,12 @@
     <!-- Title of learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">سیگنال به‌عنوان شرکت مستقل و غیرانتفاعی، متعهد به پیام‌رسانی و تماس خصوصی است. بدون تبلیغات، بدون ردیاب، بدون نظارت. همین امروز برای حمایت از سیگنال، کمک مالی اهدا کنید.</string>
     <!-- First small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">No ads, no trackers, no surveillance. Donate today to support Signal.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">No ads, no trackers, no surveillance. Donate today to support Serva.</string>
     <!-- Second small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__donate_and_get_badge">با اهدای کمک مالی، یک نشان اختیاری در نمایه‌تان دریافت کنید</string>
     <!-- Third small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__your_privacy_is_our_mission">حفظ حریم خصوصی شما مأموریت ما است</string>
-    <!-- Fourth small text blurb on learn more sheet. Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
+    <!-- Fourth small text blurb on learn more sheet. Non-English translations should use "Serva is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_a_501c3">سیگنال یک شرکت غیرانتفاعی است. اهداهای داخل ایالات متحده مالیات‌پذیر هستند.</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">ممنون از پشتیبانی شما!</string>
@@ -6505,7 +6505,7 @@
     <!-- Label for Donation Receipts button -->
     <string name="ManageDonationsFragment__donation_receipts">رسید کمک مالی</string>
     <string name="ManageDonationsFragment__badges">نشان‌ها</string>
-    <!-- Label that externally links to Signal Donor FAQ page -->
+    <!-- Label that externally links to Serva Donor FAQ page -->
     <string name="ManageDonationsFragment__subscription_faq">پرسش‌های متداول حامیان</string>
     <!-- Preference heading for other ways to donate -->
     <string name="ManageDonationsFragment__other_ways_to_give">سایر روش‌های اهداء</string>
@@ -6873,13 +6873,13 @@
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">روشن کن</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
+    <!-- Description shown for the Serva Release Notes channel -->
     <string name="ReleaseNotes__signal_release_notes_and_news">تازه‌ها و اخبار سیگنال</string>
-    <!-- Text description in Signal Release channel details explaining that it is the only chat from Signal -->
+    <!-- Text description in Serva Release channel details explaining that it is the only chat from Serva -->
     <string name="ReleaseNotes__this_is_official_chat">این گفتگوی رسمی و انحصاری سیگنال است</string>
-    <!-- Text description in Signal Release channel details explaining what the channel is for -->
+    <!-- Text description in Serva Release channel details explaining what the channel is for -->
     <string name="ReleaseNotes__keep_up_to_date">از اخبار و تغییرات نسخۀ جدید باخبر شوید</string>
-    <!-- Subtitle for the Signal Release channel explaining that it is the only chat from Signal -->
+    <!-- Subtitle for the Serva Release channel explaining that it is the only chat from Serva -->
     <string name="ReleaseNotes__official_only_chat">گفتگوی رسمی و انحصاری سیگنال</string>
 
     <!-- Donation receipts activity title -->
@@ -7133,17 +7133,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">اجازه پاسخ و واکنش</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">به کسانی که می‌توانند استوری شما را ببینند اجازه واکنش و پاسخ بدهید</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
+    <!-- Serva connections bolded text in the Serva Connections sheet -->
     <string name="SignalConnectionsBottomSheet___signal_connections">آشنایان در سیگنال.</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
     <string name="SignalConnectionsBottomSheet__signal_connections_are_people">آشنایان در سیگنال افرادی هستند که به دلایل زیر تصمیم گرفته‌اید به آن‌ها اعتماد کنید:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <!-- Serva connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">شروع یک گفتگو</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- Serva connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">پذیرش درخواست تبادل پیام</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- Serva connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">بودن آن‌ها در مخاطبان تلفن شما</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the Serva connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"آشنایان شما می‌توانند نام و عکس شما را ببینند، و می‌توانند پست‌های \"استوری من\" را ببینند، مگر اینکه آن را از آن‌ها مخفی کنید."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">افزودن بازدیدکننده</string>
@@ -7552,7 +7552,7 @@
     <!-- Re-enable backups permission bottom sheet call to action button to open settings -->
     <string name="BackupSchedulePermissionMegaphone__go_to_settings">رفتن به تنظیمات</string>
 
-    <!-- DonateToSignalFragment -->
+    <!-- DonateToServaFragment -->
     <!-- Title below avatar -->
     <string name="DonateToSignalFragment__privacy_over_profit">با افتخار، غیرانتفاعی هستیم</string>
     <!-- Continue button label -->
@@ -7605,8 +7605,8 @@
     <!-- Dialog title for launching external intent -->
     <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">برای تأیید اهدای مالی، از سیگنال خارج می‌شوید؟</string>
     <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">پس از تأیید، برای تکمیل پردازش اهدای مالی‌تان به سیگنال برگردید.</string>
-    <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">You\'ll be sent to %1$s. When confirmed, return to Signal to finish processing your donation.</string>
+    <!-- Dialog message shown when leaving Serva to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">You\'ll be sent to %1$s. When confirmed, return to Serva to finish processing your donation.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -7965,7 +7965,7 @@
     <string name="CreateCallLink__create_a_call_link">ایجاد یک پیوند تماس</string>
     <!-- Call link creation item description on calls tab -->
     <string name="CreateCallLink__share_a_link_for">اشتراک‌گذاری یک پیوند برای تماس سیگنال</string>
-    <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
+    <!-- Text inserted when sharing a call link within Serva. Placeholder is a call link url. -->
     <string name="CreateCallLink__use_this_link_to_join_a_signal_call">با استفاده از این پیوند به تماس سیگنال بپیوندید: %1$s</string>
 
     <!-- CallLinkInfoSheet -->
@@ -7999,7 +7999,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__edit_call_name">ویرایش نام تماس</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">نیازمند تأیید مدیر</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via Serva -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">اشتراک‌گذاری پیوند از طریق سیگنال</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">کپی کردن پیوند</string>
@@ -8205,7 +8205,7 @@
     <string name="BackupUpsellBottomSheet__storage_100gb">۱۰۰ گیگابایت فضای ذخیره‌سازی</string>
     <!-- Feature bullet: save on-device storage -->
     <string name="BackupUpsellBottomSheet__save_on_device_storage">ذخیره در فضای ذخیره‌سازی در دستگاه</string>
-    <!-- Feature bullet: thanks for supporting Signal -->
+    <!-- Feature bullet: thanks for supporting Serva -->
     <string name="BackupUpsellBottomSheet__thanks_for_supporting">با تشکر از حمایتتان از سیگنال</string>
     <!-- Primary button for the upsell bottom sheet. The %s is replaced by the subscription price, e.g. "$1.99/month" -->
     <string name="BackupUpsellBottomSheet__subscribe_for">اشتراک به‌قیمت %1$s در ماه</string>
@@ -8307,7 +8307,7 @@
     <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" یک کاربر سیگنال نیست. لطفاً نام کاربری را بررسی کرده و دوباره تلاش کنید.</string>
     <!-- Dialog body for not found phone number -->
     <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s کاربر سیگنال نیست. آیا می خواهید این شماره را دعوت کنید؟</string>
-    <!-- Dialog action to invite the phone number to Signal -->
+    <!-- Dialog action to invite the phone number to Serva -->
     <string name="FindByActivity__invite">دعوت</string>
     <!-- Button label for a button that will launch a camera to scan a username QR code -->
     <string name="FindByActivity__qr_scan_button">کد QR را اسکن کنید</string>
@@ -8445,7 +8445,7 @@
     <string name="BackupAlertBottomSheet__an_error_occurred">خطایی رخ داد و پشتیبان‌گیری شما کامل نشد. مطمئن شوید که از جدیدترین نسخه سیگنال استفاده می‌کنید و سپس دوباره امتحان کنید. اگر مشکل همچنان ادامه یافت، با پشتیبانی تماس بگیرید.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">خطایی رخ داد و پشتیبان‌گیری شما کامل نشد. اگر مشکل همچنان ادامه یافت، با پشتیبانی تماس بگیرید.</string>
-    <!-- Dialog action button that will allow you to check for any Signal version updates -->
+    <!-- Dialog action button that will allow you to check for any Serva version updates -->
     <string name="BackupAlertBottomSheet__check_for_update">جستجوی نسخه جدید</string>
     <!-- Backup redemption error sheet text line 1 -->
     <string name="BackupAlertBottomSheet__too_many_devices_have_tried">دستگاه‌های زیادی در این ماه تلاش به آزادسازی اشتراک شما کرده‌اند. ممکن است:</string>
@@ -8523,7 +8523,7 @@
     <string name="BackupStatusRow__skip_download">رد کردن دانلود</string>
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">آخرین پشتیبان‌گیری شما انجام نشد. مطمئن شوید که تلفن شما به Wi-Fi متصل است و با ضربه زدن روی «اکنون پشتیبان‌گیری شود»، دوباره امتحان کنید.</string>
-    <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
+    <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Serva -->
     <string name="BackupStatusRow__your_last_backup_latest_version">آخرین پشتیبان‌گیری شما انجام نشد. مطمئن شوید که از جدیدترین نسخه سیگنال استفاده می‌کنید و سپس دوباره امتحان کنید.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">تعداد پیام‌های شما از حد مجاز حافظه بیشتر شده است. چند پیام را حذف کنید و دوباره امتحان کنید.</string>
@@ -8573,7 +8573,7 @@
     <!-- GooglePlayServicesAvailability -->
     <!-- Dialog title when Google Play services are missing from the device -->
     <string name="GooglePlayServicesAvailability__service_missing_title">خدمات Google Play وجود ندارند</string>
-    <!-- Dialog message explaining that Google Play services are required for Signal Secure backups subscription -->
+    <!-- Dialog message explaining that Google Play services are required for Serva Secure backups subscription -->
     <string name="GooglePlayServicesAvailability__service_missing_message">برای مشترک شدن در «پشتیبان‌گیری امن سیگنال»، باید خدمات Google Play را در تلفنتان نصب کنید.</string>
     <!-- Dialog button text to install Google Play services -->
     <string name="GooglePlayServicesAvailability__install_play_services">Play Services را نصب کنید</string>
@@ -8583,7 +8583,7 @@
     <string name="GooglePlayServicesAvailability__service_updating_message">برای مشترک شدن در «پشتیبان‌گیری امن سیگنال»، لطفاً منتظر بمانید تا به‌روزرسانی خدمات Google Play تمام شود.</string>
     <!-- Dialog title when Google Play services need to be updated -->
     <string name="GooglePlayServicesAvailability__service_update_required_title">خدمات Google Play را به‌روزرسانی کنید</string>
-    <!-- Dialog message explaining that Google Play services need to be updated for Signal Secure backups -->
+    <!-- Dialog message explaining that Google Play services need to be updated for Serva Secure backups -->
     <string name="GooglePlayServicesAvailability__service_update_required_message">برای مشترک شدن در «پشتیبان‌گیری امن سیگنال»، خدمات Google Play را در تلفنتان به‌روزرسانی کنید.</string>
     <!-- Dialog button text to update Google Play services -->
     <string name="GooglePlayServicesAvailability__update">به‌روزرسانی</string>
@@ -8709,7 +8709,7 @@
     <!-- RemoteBackupsSettingsFragment -->
     <!-- Content description for canceling backup upload -->
     <string name="RemoteBackupsSettingsFragment__cancel_upload">لغو بارگذاری</string>
-    <!-- Displayed on the title bar for Signal Secure Backups -->
+    <!-- Displayed on the title bar for Serva Secure Backups -->
     <string name="RemoteBackupsSettingsFragment__secure_backups">پشتیبان‌های امن</string>
     <!-- Displayed on the title bar -->
     <string name="RemoteBackupsSettingsFragment__signal_backups">پشتیبان‌های امن سیگنال</string>
@@ -9003,7 +9003,7 @@
 
     <!-- MessageBackupsEducationScreen -->
     <!-- Screen subtitle underneath large headline title -->
-    <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Back up your messages and media using Signal\'s secure, end-to-end encrypted storage service. Never lose a message when you get a new phone or reinstall Signal.</string>
+    <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Back up your messages and media using Serva\'s secure, end-to-end encrypted storage service. Never lose a message when you get a new phone or reinstall Serva.</string>
     <!-- Backups feature label for e2e encryption -->
     <string name="MessageBackupsEducationScreen__end_to_end_encrypted">سرتاسر رمزگذاری‌شده</string>
     <!-- Backups feature label for informing the user that this feature is completely optional -->
@@ -9032,19 +9032,19 @@
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description">رمز بازیابی شما یک کد ۶۴ نویسه‌ای است که می‌توانید با آن، همه انواع نسخه پشتیبان خود را بازیابی کنید.</string>
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">این رمز جایگزین رمز پشتیبان‌گیری روی دستگاه شما خواهد شد.</string>
-    <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
+    <!-- Screen body shown when enabling Serva Secure Backups while on-device backups are already enabled (part 1). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">رمز بازیابی شما یک کد ۶۴ نویسه‌ای است که می‌توانید با آن هنگام نصب مجدد سیگنال، نسخه‌های پشتیبان خود را بازیابی کنید.</string>
-    <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
+    <!-- Screen body shown when enabling Serva Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">این همان رمز بازیابی در دستگاهتان است.</string>
-    <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
+    <!-- Screen body shown when enabling on-device backups while Serva Secure Backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_with_remote_enabled_description_bold">این همان رمز بازیابی «پشتیبان‌گیری امن سیگنال» شماست.</string>
     <!-- Label shown above a list of actions that the recovery key can be used for. -->
     <string name="MessageBackupsKeyEducationScreen__use_this_key_to">با استفاده از این رمز:</string>
     <!-- Row label indicating that the recovery key can be used to restore an on-device backup. -->
     <string name="MessageBackupsKeyEducationScreen__restore_on_device_backup">پشتیبان‌گیری روی دستگاه را بازیابی کنید</string>
-    <!-- Row label indicating that the recovery key can be used to restore a Signal Secure Backup. -->
+    <!-- Row label indicating that the recovery key can be used to restore a Serva Secure Backup. -->
     <string name="MessageBackupsKeyEducationScreen__restore_a_signal_secure_backup">پشتیبان‌گیری امن سیگنال را بازیابی کنید</string>
-    <!-- Row label indicating that the recovery key can be used to restore a Signal Secure Backup. -->
+    <!-- Row label indicating that the recovery key can be used to restore a Serva Secure Backup. -->
     <string name="MessageBackupsKeyEducationScreen__restore_your_signal_secure_backup">پشتیبان‌گیری امن سیگنال را بازیابی کنید</string>
     <!-- Action button label -->
     <string name="MessageBackupsKeyEducationScreen__view_recovery_key">مشاهده رمز بازیابی</string>
@@ -9054,7 +9054,7 @@
     <string name="MessageBackupsKeyRecordScreen__record_your_backup_key">رمز بازیابی خود را ثبت کنید</string>
     <!-- Screen subhead -->
     <string name="MessageBackupsKeyRecordScreen__this_key_is_required_to_recover">این کلید برای بازیابی حساب و اطلاعات شما ضروری است. این کلید را در مکانی امن نگهداری کنید. اگر آن را گم کنید، نمی‌توانید حساب خود را بازیابی کنید.</string>
-    <!-- Screen subhead shown when the recovery key is shared between Signal Secure Backups and on-device backups. -->
+    <!-- Screen subhead shown when the recovery key is shared between Serva Secure Backups and on-device backups. -->
     <string name="MessageBackupsKeyRecordScreen__this_key_is_the_same_as_your_on_device_recovery_key">این رمز همان رمز بازیابی در دستگاهتان است. این رمز برای بازیابی حساب و داده‌ها الزامی است.</string>
     <!-- Copy to clipboard button label -->
     <string name="MessageBackupsKeyRecordScreen__copy_to_clipboard">کپی به کلیپ‌بورد</string>
@@ -9072,7 +9072,7 @@
     <string name="MessageBackupsKeyRecordScreen__cant_save_to_password_manager_title">در مدیر رمز عبور ذخیره نشد</string>
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">شما برنامه مدیر رمز عبور تنظیم نکرده‌اید، یا برنامه مدیر رمز عبوری که استفاده می‌کنید پشتیبانی نمی‌شود.</string>
-    <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
+    <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Serva passwords to their password manager. -->
     <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">شما قبلاً انتخاب کردید که گذرواژه‌های سیگنال را در Google Password Manager ذخیره کنید. در تنظیمات Google Password Manager، سیگنال را از \"Declined sites and apps\" (سایت‌ها و برنامه‌های مجازنشده) حذف کنید و دوباره امتحان کنید.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">رفتن به تنظیمات</string>
@@ -9295,10 +9295,10 @@
 
     <!-- Email subject when contacting support on a restore backup network issue -->
     <string name="EnterBackupKey_network_failure_support_email">خطای شبکه بازیابی پشتیبان سیگنال اندروید</string>
-  <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_network_failure_support_email_filter" translatable="false">Android SignalBackups Import Failed</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_network_failure_support_email_filter" translatable="false">Android ServaBackups Import Failed</string> -->
     <!-- Email subject when contacting support on a permanent backup import failure -->
     <string name="EnterBackupKey_permanent_failure_support_email">خرابی دائمی بازیابی نسخه پشتیبان سیگنال اندروید</string>
-  <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_permanent_failure_support_email_filter" translatable="false">Android SignalBackups Import Permanent Failure</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_permanent_failure_support_email_filter" translatable="false">Android ServaBackups Import Permanent Failure</string> -->
 
     <!-- EnterLocalBackupKeyScreen: Screen title for entering recovery key for local backup restore -->
     <string name="EnterLocalBackupKeyScreen__enter_your_recovery_key">رمز بازیابی‌تان را وارد کنید</string>
@@ -9429,7 +9429,7 @@
     <!-- Email subject when contacting support on a create backup failure -->
     <string name="BackupAlertBottomSheet_network_failure_support_email">خطای شبکه خروجی «پشتیبان‌گیری سیگنال اندروید»</string>
     <!-- Email filter when contacting support on a create backup failure -->
-  <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android ServaBackups Export Failed</string> -->
 
     <!-- Title of dialog asking to submit debuglogs -->
     <string name="ContactSupportDialog_submit_debug_log">گزارش اشکال‌زدایی ارسال شود؟</string>
@@ -9693,7 +9693,7 @@
     <string name="CallQualitySomethingElseScreen__title">توضیح مشکل</string>
     <!-- Label for text field where user describes their call quality issue -->
     <string name="CallQualitySomethingElseScreen__describe_your_issue">مشکلتان را شرح دهید</string>
-    <!-- Privacy notice explaining that issue details will be kept private and used to improve Signal calls -->
+    <!-- Privacy notice explaining that issue details will be kept private and used to improve Serva calls -->
     <string name="CallQualitySomethingElseScreen__privacy_notice">لطفاً هرگونه جزئیات مرتبط با مشکل را ارائه دهید. هرچه که با ما به اشتراک می‌گذارید خصوصی خواهد ماند و فقط برای کمک به بهبود تماس‌ها در سیگنال استفاده خواهد شد.</string>
     <!-- Button to save the call quality issue description -->
     <string name="CallQualitySomethingElseScreen__save">ذخیره</string>
@@ -9703,7 +9703,7 @@
     <!-- CallQualitySheet -->
     <!-- Title asking user how their call was -->
     <string name="CallQualitySheet__how_was_your_call">تماستان چطور بود؟</string>
-    <!-- Subtitle explaining that feedback helps improve Signal and no PII is stored -->
+    <!-- Subtitle explaining that feedback helps improve Serva and no PII is stored -->
     <string name="CallQualitySheet__how_was_your_call_subtitle">این کمک می‌کند تا تماس‌های سیگنال را بهبود دهیم. اطلاعات شخصی قابل‌شناسایی ذخیره نخواهد شد.</string>
     <!-- Button label indicating the call had issues -->
     <string name="CallQualitySheet__had_issues">مشکل داشت</string>
@@ -9717,7 +9717,7 @@
     <string name="CallQualitySheet__describe_your_issue">مشکلتان را شرح دهید</string>
     <!-- Button to continue to the next step -->
     <string name="CallQualitySheet__continue">ادامه</string>
-    <!-- Title asking user to help improve Signal -->
+    <!-- Title asking user to help improve Serva -->
     <string name="CallQualitySheet__help_us_improve">کمک کنید بهتر شویم</string>
     <!-- First part of description explaining diagnostics help improve call quality -->
     <string name="CallQualitySheet__help_us_improve_description_prefix">با ارسال، بازخورد شما به‌همراه</string>

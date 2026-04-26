@@ -7,7 +7,7 @@
     android:gravity="center_vertical"
     android:orientation="horizontal">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <com.servalabs.chat.components.AvatarImageView
         android:id="@+id/conversation_item_starred_source_avatar"
         android:layout_width="20dp"
         android:layout_height="20dp"

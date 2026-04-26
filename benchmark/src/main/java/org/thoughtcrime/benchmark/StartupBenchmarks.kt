@@ -36,7 +36,7 @@ class StartupBenchmarks {
   private fun measureStartup(iterations: Int, compilationMode: CompilationMode) {
     var setup = false
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = listOf(StartupTimingMetric(), TraceSectionMetric("ConversationListDataSource#load")),
       iterations = iterations,
       startupMode = StartupMode.COLD,

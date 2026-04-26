@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
+<com.servalabs.chat.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/conversation_item"
@@ -65,7 +65,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="4dp">
 
-        <org.thoughtcrime.securesms.components.AvatarImageView
+        <com.servalabs.chat.components.AvatarImageView
             android:id="@+id/contact_photo"
             android:layout_width="@dimen/conversation_item_avatar_size"
             android:layout_height="@dimen/conversation_item_avatar_size"
@@ -76,7 +76,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <com.servalabs.chat.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -97,7 +97,7 @@
         android:layout_marginBottom="4dp"
         android:layout_toEndOf="@id/contact_photo_container" />
 
-    <org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble
+    <com.servalabs.chat.conversation.ConversationItemBodyBubble
         android:id="@+id/body_bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
             android:visibility="gone"
             tools:visibility="visible">
 
-            <org.thoughtcrime.securesms.conversation.v2.items.SenderNameWithLabelView
+            <com.servalabs.chat.conversation.v2.items.SenderNameWithLabelView
                 android:id="@+id/group_sender_name_with_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
 
         </FrameLayout>
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             style="@style/Signal.Text.Body"
             android:layout_width="wrap_content"
@@ -147,7 +147,7 @@
             app:scaleEmojis="true"
             tools:text="Mango pickle lorem ipsum" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <com.servalabs.chat.components.ConversationItemFooter
             android:id="@+id/conversation_item_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <com.servalabs.chat.components.ConversationItemFooter
             android:id="@+id/conversation_item_sticker_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -183,16 +183,16 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-    </org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble>
+    </com.servalabs.chat.conversation.ConversationItemBodyBubble>
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <com.servalabs.chat.components.AlertView
         android:id="@+id/indicators_parent"
         android:layout_width="36dp"
         android:layout_height="36dp"
         android:layout_alignParentEnd="true"
         android:gravity="center_vertical" />
 
-    <org.thoughtcrime.securesms.reactions.ReactionsConversationView
+    <com.servalabs.chat.reactions.ReactionsConversationView
         android:id="@+id/reactions_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -202,4 +202,4 @@
         android:orientation="horizontal"
         app:rcv_outgoing="false" />
 
-</org.thoughtcrime.securesms.conversation.ConversationItem>
+</com.servalabs.chat.conversation.ConversationItem>

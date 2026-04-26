@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/selectRestoreMethod"
-        android:name="org.thoughtcrime.securesms.restore.selection.SelectRestoreMethodFragment"
+        android:name="com.servalabs.chat.restore.selection.SelectRestoreMethodFragment"
         android:label="transfer_or_restore">
 
         <action
@@ -78,7 +78,7 @@
 
     <fragment
         android:id="@+id/enterBackupKey"
-        android:name="org.thoughtcrime.securesms.restore.enterbackupkey.PostRegistrationEnterBackupKeyFragment">
+        android:name="com.servalabs.chat.restore.enterbackupkey.PostRegistrationEnterBackupKeyFragment">
 
         <action
             android:id="@+id/go_to_remote_restore_activity"
@@ -88,11 +88,11 @@
 
     <activity
         android:id="@+id/remoteRestoreActivity"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.RemoteRestoreActivity" />
+        android:name="com.servalabs.chat.registration.ui.restore.RemoteRestoreActivity" />
 
     <fragment
         android:id="@+id/choose_local_backup_fragment"
-        android:name="org.thoughtcrime.securesms.restore.choosebackup.ChooseBackupFragment"
+        android:name="com.servalabs.chat.restore.choosebackup.ChooseBackupFragment"
         android:label="choose_local_backup"
         tools:layout="@layout/fragment_choose_backup">
 
@@ -103,7 +103,7 @@
 
     <fragment
         android:id="@+id/choose_local_backup_fragment_v2"
-        android:name="org.thoughtcrime.securesms.restore.local.PostRegistrationRestoreLocalBackupFragment"
+        android:name="com.servalabs.chat.restore.local.PostRegistrationRestoreLocalBackupFragment"
         android:label="choose_local_backup"
         tools:layout="@layout/fragment_choose_backup">
 
@@ -114,13 +114,13 @@
 
     <fragment
         android:id="@+id/restore_local_backup_fragment"
-        android:name="org.thoughtcrime.securesms.restore.restorelocalbackup.RestoreLocalBackupFragment"
+        android:name="com.servalabs.chat.restore.restorelocalbackup.RestoreLocalBackupFragment"
         android:label="restore_local_backup"
         tools:layout="@layout/fragment_restore_local_backup" />
 
     <fragment
         android:id="@+id/newDeviceTransferInstructions"
-        android:name="org.thoughtcrime.securesms.devicetransfer.newdevice.NewDeviceTransferInstructionsFragment"
+        android:name="com.servalabs.chat.devicetransfer.newdevice.NewDeviceTransferInstructionsFragment"
         tools:layout="@layout/new_device_transfer_instructions_fragment">
 
         <action
@@ -135,7 +135,7 @@
 
     <fragment
         android:id="@+id/deviceTransferSetup"
-        android:name="org.thoughtcrime.securesms.devicetransfer.newdevice.NewDeviceTransferSetupFragment"
+        android:name="com.servalabs.chat.devicetransfer.newdevice.NewDeviceTransferSetupFragment"
         tools:layout="@layout/device_transfer_setup_fragment">
 
         <action
@@ -150,7 +150,7 @@
 
     <fragment
         android:id="@+id/newDeviceTransfer"
-        android:name="org.thoughtcrime.securesms.devicetransfer.newdevice.NewDeviceTransferFragment"
+        android:name="com.servalabs.chat.devicetransfer.newdevice.NewDeviceTransferFragment"
         tools:layout="@layout/fragment_device_transfer">
 
         <action
@@ -177,7 +177,7 @@
 
     <fragment
         android:id="@+id/newDeviceTransferComplete"
-        android:name="org.thoughtcrime.securesms.devicetransfer.newdevice.NewDeviceTransferCompleteFragment"
+        android:name="com.servalabs.chat.devicetransfer.newdevice.NewDeviceTransferCompleteFragment"
         tools:layout="@layout/new_device_transfer_complete_fragment" />
 
 </navigation>

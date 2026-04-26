@@ -20,7 +20,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/linkpreview_title" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/linkpreview_title"
             style="@style/Signal.Text.LabelLarge"
             android:layout_width="0dp"
@@ -36,7 +36,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="J. Jonah Jameson on Twitter" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/linkpreview_description"
             style="@style/Signal.Text.BodyMedium"
             android:layout_width="0dp"
@@ -53,7 +53,7 @@
             app:layout_constraintTop_toBottomOf="@id/linkpreview_title"
             tools:text="Wall crawler strikes again!" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/linkpreview_site"
             style="@style/Signal.Text.MaterialCaption"
             android:layout_width="wrap_content"

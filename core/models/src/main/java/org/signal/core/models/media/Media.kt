@@ -32,7 +32,7 @@ data class Media(
   var fileName: String?
 ) : Parcelable {
   companion object {
-    const val ALL_MEDIA_BUCKET_ID: String = "org.thoughtcrime.securesms.ALL_MEDIA"
+    const val ALL_MEDIA_BUCKET_ID: String = "com.servalabs.chat.ALL_MEDIA"
   }
 
   fun withMimeType(newMimeType: String) = copy(contentType = newMimeType)

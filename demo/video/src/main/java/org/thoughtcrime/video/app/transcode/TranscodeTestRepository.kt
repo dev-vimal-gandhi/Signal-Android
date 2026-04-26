@@ -16,10 +16,10 @@ import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.isActive
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.video.StreamingTranscoder
-import org.thoughtcrime.securesms.video.TranscodingPreset
-import org.thoughtcrime.securesms.video.postprocessing.Mp4FaststartPostProcessor
-import org.thoughtcrime.securesms.video.videoconverter.mediadatasource.InputStreamMediaDataSource
+import com.servalabs.chat.video.StreamingTranscoder
+import com.servalabs.chat.video.TranscodingPreset
+import com.servalabs.chat.video.postprocessing.Mp4FaststartPostProcessor
+import com.servalabs.chat.video.videoconverter.mediadatasource.InputStreamMediaDataSource
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException

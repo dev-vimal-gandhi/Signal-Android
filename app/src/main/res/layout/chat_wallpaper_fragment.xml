@@ -55,7 +55,7 @@
                 app:layout_constraintTop_toBottomOf="@id/chat_wallpaper_preview_top_bar"
                 tools:visibility="visible" />
 
-            <org.thoughtcrime.securesms.conversation.colors.ColorizerView
+            <com.servalabs.chat.conversation.colors.ColorizerView
                 android:id="@+id/colorizer"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -85,7 +85,7 @@
                 app:srcCompat="@drawable/symbol_arrow_start_24"
                 app:tint="@color/core_white" />
 
-            <org.thoughtcrime.securesms.components.AvatarImageView
+            <com.servalabs.chat.components.AvatarImageView
                 android:id="@+id/chat_wallpaper_preview_top_bar_portrait"
                 android:layout_width="16dp"
                 android:layout_height="16dp"

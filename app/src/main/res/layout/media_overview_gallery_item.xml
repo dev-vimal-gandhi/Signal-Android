@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.servalabs.chat.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:foreground="@drawable/media_overview_item_selected_foreground">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <com.servalabs.chat.components.ThumbnailView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -53,4 +53,4 @@
 
     </FrameLayout>
 
-</org.thoughtcrime.securesms.components.SquareFrameLayout>
+</com.servalabs.chat.components.SquareFrameLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationUpdateItem
+<com.servalabs.chat.conversation.ConversationUpdateItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -39,7 +39,7 @@
             android:backgroundTint="@color/signal_colorSurface1"
             tools:text="12 group updates" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/conversation_update_body"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="wrap_content"
@@ -60,4 +60,4 @@
 
     </LinearLayout>
 
-</org.thoughtcrime.securesms.conversation.ConversationUpdateItem>
+</com.servalabs.chat.conversation.ConversationUpdateItem>

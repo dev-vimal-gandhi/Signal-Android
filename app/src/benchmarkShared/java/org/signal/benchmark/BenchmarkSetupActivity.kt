@@ -14,19 +14,19 @@ import org.signal.benchmark.setup.Harness
 import org.signal.benchmark.setup.TestMessages
 import org.signal.benchmark.setup.TestUsers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.TestDbUtils
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.Skipped
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.BaseActivity
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.TestDbUtils
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.Skipped
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.util.RegistrationUtil
+import com.servalabs.chat.util.TextSecurePreferences
 
 class BenchmarkSetupActivity : BaseActivity() {
 

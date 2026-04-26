@@ -43,7 +43,7 @@ class ThreadIdDatabaseDetectorTest {
         java(
           """
           package foo;
-          import org.thoughtcrime.securesms.database.ThreadIdDatabaseReference;
+          import com.servalabs.chat.database.ThreadIdDatabaseReference;
           public class Example extends Database implements ThreadIdDatabaseReference {
             private static final String THREAD_ID = "thread_id";
             @Override

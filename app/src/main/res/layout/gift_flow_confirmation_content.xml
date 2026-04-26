@@ -60,7 +60,7 @@
         app:layout_constraintStart_toEndOf="@id/description"
         tools:text="$10" />
 
-    <com.google.android.material.button.MaterialButton
+    <!-- <com.google.android.material.button.MaterialButton
         android:id="@+id/continue_button"
         style="@style/Signal.Widget.Button.Large.Primary"
         android:layout_width="match_parent"
@@ -70,6 +70,6 @@
         android:insetTop="2dp"
         android:insetBottom="2dp"
         android:text="@string/DonateToSignalFragment__continue"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent" /> -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

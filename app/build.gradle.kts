@@ -103,7 +103,7 @@ ktlint {
 }
 
 android {
-  namespace = "org.thoughtcrime.securesms"
+  namespace = "com.servalabs.chat"
 
   buildToolsVersion = libs.versions.buildTools.get()
   compileSdkVersion = libs.versions.compileSdk.get()
@@ -279,7 +279,7 @@ android {
       }
     }
 
-    testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
+    testInstrumentationRunner = "com.servalabs.chat.testing.SignalTestRunner"
     testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 
@@ -368,7 +368,7 @@ android {
       buildConfigField("boolean", "TRACING_ENABLED", "true")
       buildConfigField("String[]", "UNIDENTIFIED_SENDER_TRUST_ROOTS", "new String[]{ \"BVT/2gHqbrG1xzuIypLIOjFgMtihrMld1/5TGADL6Dhv\"}")
 
-      manifestPlaceholders["applicationClass"] = "org.thoughtcrime.securesms.BenchmarkApplicationContext"
+      manifestPlaceholders["applicationClass"] = "com.servalabs.chat.BenchmarkApplicationContext"
     }
 
     create("mocked") {
@@ -380,7 +380,7 @@ android {
       buildConfigField("String", "BUILD_VARIANT_TYPE", "\"Benchmark\"")
       buildConfigField("boolean", "TRACING_ENABLED", "true")
 
-      manifestPlaceholders["applicationClass"] = "org.thoughtcrime.securesms.ApplicationContext"
+      manifestPlaceholders["applicationClass"] = "com.servalabs.chat.ApplicationContext"
     }
 
     create("canary") {

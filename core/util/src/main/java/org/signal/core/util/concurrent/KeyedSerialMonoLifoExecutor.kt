@@ -3,7 +3,7 @@ package org.signal.core.util.concurrent
 import java.util.concurrent.Executor
 
 /**
- * Like [org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor], but manages independent queues keyed by a string.
+ * Like [com.servalabs.chat.util.concurrent.SerialMonoLifoExecutor], but manages independent queues keyed by a string.
  *
  * Each key gets its own active/next pair, so tasks with different keys can run concurrently on the
  * backing executor. Within a given key, only two tasks exist at a time: the currently running one

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <com.servalabs.chat.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -18,7 +18,7 @@
         app:title="@string/MyStorySettingsFragment__all_signal_connections"
         app:titleTextAppearance="@style/Signal.Text.TitleLarge" />
 
-    <org.thoughtcrime.securesms.contacts.paged.ContactSearchView
+    <com.servalabs.chat.contacts.paged.ContactSearchView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="0dp"

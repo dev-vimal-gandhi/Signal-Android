@@ -5,7 +5,7 @@ import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.Until
 
 object BenchmarkSetup {
-  private const val TARGET_PACKAGE = "org.thoughtcrime.securesms.benchmark"
+  private const val TARGET_PACKAGE = "com.servalabs.chat.benchmark"
   private const val RECEIVER = "org.signal.benchmark.BenchmarkCommandReceiver"
 
   fun setup(type: String, device: UiDevice, timeout: Long = 25_000L, clearData: Boolean = true) {

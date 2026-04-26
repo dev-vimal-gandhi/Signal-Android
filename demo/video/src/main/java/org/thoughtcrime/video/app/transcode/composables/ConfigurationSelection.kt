@@ -31,8 +31,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import org.thoughtcrime.securesms.video.TranscodingPreset
-import org.thoughtcrime.securesms.video.videoconverter.utils.DeviceCapabilities
+import com.servalabs.chat.video.TranscodingPreset
+import com.servalabs.chat.video.videoconverter.utils.DeviceCapabilities
 import org.thoughtcrime.video.app.transcode.MAX_VIDEO_MEGABITRATE
 import org.thoughtcrime.video.app.transcode.MIN_VIDEO_MEGABITRATE
 import org.thoughtcrime.video.app.transcode.OPTIONS_AUDIO_KILOBITRATES

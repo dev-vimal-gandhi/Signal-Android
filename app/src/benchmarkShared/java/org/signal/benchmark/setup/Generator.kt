@@ -10,7 +10,7 @@ import org.signal.core.models.ServiceId
 import org.signal.core.util.Base64
 import org.signal.core.util.toByteArray
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
+import com.servalabs.chat.messages.SignalServiceProtoUtil.buildWith
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeContent
 import org.whispersystems.signalservice.internal.push.Content

@@ -16,11 +16,11 @@ import org.signal.benchmark.setup.Harness
 import org.signal.benchmark.setup.OtherClient
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.TestDbUtils
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.TestDbUtils
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.Recipient
 import org.whispersystems.signalservice.internal.push.Envelope
 import org.whispersystems.signalservice.internal.websocket.BenchmarkWebSocketConnection
 import org.whispersystems.signalservice.internal.websocket.WebSocketRequestMessage

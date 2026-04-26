@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/conversationSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsFragment"
+        android:name="com.servalabs.chat.components.settings.conversation.ConversationSettingsFragment"
         android:label="app_settings_fragment"
         tools:layout="@layout/dsl_settings_fragment">
 
@@ -22,7 +22,7 @@
             <argument
                 android:name="recipient_id"
                 android:defaultValue="@null"
-                app:argType="org.thoughtcrime.securesms.recipients.RecipientId"
+                app:argType="com.servalabs.chat.recipients.RecipientId"
                 app:nullable="true" />
 
             <argument
@@ -39,7 +39,7 @@
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId"
+            app:argType="com.servalabs.chat.recipients.RecipientId"
             app:nullable="true" />
 
         <argument
@@ -62,7 +62,7 @@
 
             <argument
                 android:name="recipient_id"
-                app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+                app:argType="com.servalabs.chat.recipients.RecipientId" />
 
         </action>
 
@@ -76,7 +76,7 @@
 
             <argument
                 android:name="recipient_id"
-                app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+                app:argType="com.servalabs.chat.recipients.RecipientId" />
 
         </action>
 
@@ -104,7 +104,7 @@
 
             <argument
                 android:name="recipient_id"
-                app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+                app:argType="com.servalabs.chat.recipients.RecipientId" />
 
         </action>
 
@@ -134,12 +134,12 @@
 
     <fragment
         android:id="@+id/soundsAndNotificationsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.sounds.SoundsAndNotificationsSettingsFragment"
+        android:name="com.servalabs.chat.components.settings.conversation.sounds.SoundsAndNotificationsSettingsFragment"
         tools:layout="@layout/dsl_settings_fragment">
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+            app:argType="com.servalabs.chat.recipients.RecipientId" />
 
         <action
             android:id="@+id/action_soundsAndNotificationsSettingsFragment_to_customNotificationsSettingsFragment"
@@ -153,11 +153,11 @@
 
     <fragment
         android:id="@+id/soundsAndNotificationsSettingsFragment2"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.sounds.SoundsAndNotificationsSettingsFragment2">
+        android:name="com.servalabs.chat.components.settings.conversation.sounds.SoundsAndNotificationsSettingsFragment2">
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+            app:argType="com.servalabs.chat.recipients.RecipientId" />
 
         <action
             android:id="@+id/action_soundsAndNotificationsSettingsFragment2_to_customNotificationsSettingsFragment"
@@ -171,17 +171,17 @@
 
     <fragment
         android:id="@+id/internalDetailsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.InternalConversationSettingsFragment">
+        android:name="com.servalabs.chat.components.settings.conversation.InternalConversationSettingsFragment">
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+            app:argType="com.servalabs.chat.recipients.RecipientId" />
 
     </fragment>
 
     <fragment
         android:id="@+id/permissionsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.permissions.PermissionsSettingsFragment">
+        android:name="com.servalabs.chat.components.settings.conversation.permissions.PermissionsSettingsFragment">
 
         <argument
             android:name="group_id"
@@ -191,17 +191,17 @@
 
     <fragment
         android:id="@+id/customNotificationsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.conversation.sounds.custom.CustomNotificationsSettingsFragment">
+        android:name="com.servalabs.chat.components.settings.conversation.sounds.custom.CustomNotificationsSettingsFragment">
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId" />
+            app:argType="com.servalabs.chat.recipients.RecipientId" />
 
     </fragment>
 
     <fragment
         android:id="@+id/shareableGroupLinkFragment"
-        android:name="org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.ShareableGroupLinkFragment">
+        android:name="com.servalabs.chat.recipients.ui.sharablegrouplink.ShareableGroupLinkFragment">
 
         <argument
             android:name="group_id"
@@ -211,7 +211,7 @@
 
     <fragment
         android:id="@+id/memberLabelFragment"
-        android:name="org.thoughtcrime.securesms.groups.memberlabel.MemberLabelFragment">
+        android:name="com.servalabs.chat.groups.memberlabel.MemberLabelFragment">
 
         <argument
             android:name="group_id"

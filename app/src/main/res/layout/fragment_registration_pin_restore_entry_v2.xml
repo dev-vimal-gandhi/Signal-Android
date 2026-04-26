@@ -54,7 +54,7 @@
             app:layout_constraintTop_toBottomOf="@+id/pin_restore_pin_description"
             app:materialThemeOverlay="@style/Signal.ThemeOverlay.TextInputLayout">
 
-            <org.thoughtcrime.securesms.components.NoAutofillEditText
+            <com.servalabs.chat.components.NoAutofillEditText
                 android:id="@+id/pin_restore_pin_input"
                 style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
                 android:layout_width="match_parent"
@@ -103,7 +103,7 @@
             app:layout_constraintVertical_bias="0.0"
             tools:layout_editor_absoluteX="32dp" />
 
-        <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+        <com.servalabs.chat.util.views.CircularProgressMaterialButton
             android:id="@+id/pin_restore_pin_continue"
             style="@style/Signal.Widget.Button.Large.Tonal"
             android:layout_width="wrap_content"

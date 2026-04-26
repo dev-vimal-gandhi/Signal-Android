@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.welcome.WelcomeFragment"
+        android:name="com.servalabs.chat.registration.ui.welcome.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_registration_welcome_v3">
 
@@ -55,19 +55,19 @@
 
     <fragment
         android:id="@+id/grantPermissionsFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.permissions.GrantPermissionsFragment"
+        android:name="com.servalabs.chat.registration.ui.permissions.GrantPermissionsFragment"
         android:label="fragment_grant_permissions"
         tools:ignore="NewApi">
 
         <argument
             android:name="welcomeUserSelection"
-            app:argType="org.thoughtcrime.securesms.registration.ui.welcome.WelcomeUserSelection" />
+            app:argType="com.servalabs.chat.registration.ui.welcome.WelcomeUserSelection" />
 
     </fragment>
 
     <fragment
         android:id="@+id/restoreViaQr"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.RestoreViaQrFragment">
+        android:name="com.servalabs.chat.registration.ui.restore.RestoreViaQrFragment">
 
         <action
             android:id="@+id/go_to_noBackupToRestore"
@@ -99,12 +99,12 @@
 
     <fragment
         android:id="@+id/linkViaQr"
-        android:name="org.thoughtcrime.securesms.registration.ui.link.RegisterLinkDeviceQrFragment">
+        android:name="com.servalabs.chat.registration.ui.link.RegisterLinkDeviceQrFragment">
     </fragment>
 
     <fragment
         android:id="@+id/noBackupToRestore"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.NoBackupToRestoreFragment">
+        android:name="com.servalabs.chat.registration.ui.restore.NoBackupToRestoreFragment">
 
         <action
             android:id="@+id/restart_registration_flow"
@@ -120,7 +120,7 @@
 
     <fragment
         android:id="@+id/selectRestoreMethod"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.SelectManualRestoreMethodFragment">
+        android:name="com.servalabs.chat.registration.ui.restore.SelectManualRestoreMethodFragment">
 
         <action
             android:id="@+id/go_to_enterPhoneNumber"
@@ -132,25 +132,25 @@
 
         <argument
             android:name="welcomeUserSelection"
-            app:argType="org.thoughtcrime.securesms.registration.ui.welcome.WelcomeUserSelection" />
+            app:argType="com.servalabs.chat.registration.ui.welcome.WelcomeUserSelection" />
 
     </fragment>
 
     <fragment
         android:id="@+id/countryPickerFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeFragment"
+        android:name="com.servalabs.chat.registration.ui.countrycode.CountryCodeFragment"
         tools:layout="@layout/fragment_registration_country_picker">
 
         <argument
             android:name="country"
-            app:argType="org.thoughtcrime.securesms.registration.ui.countrycode.Country"
+            app:argType="com.servalabs.chat.registration.ui.countrycode.Country"
             app:nullable="true" />
     </fragment>
 
 
     <fragment
         android:id="@+id/enterPhoneNumberFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberFragment"
+        android:name="com.servalabs.chat.registration.ui.phonenumber.EnterPhoneNumberFragment"
         android:label="fragment_enter_phone_number"
         tools:layout="@layout/fragment_registration_enter_phone_number">
 
@@ -240,13 +240,13 @@
 
         <argument
             android:name="enterPhoneNumberMode"
-            app:argType="org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberMode" />
+            app:argType="com.servalabs.chat.registration.ui.phonenumber.EnterPhoneNumberMode" />
 
     </fragment>
 
     <fragment
         android:id="@+id/enterBackupKey"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.EnterBackupKeyFragment">
+        android:name="com.servalabs.chat.registration.ui.restore.EnterBackupKeyFragment">
 
         <action
             android:id="@+id/go_to_enterPhoneNumber"
@@ -261,11 +261,11 @@
 
     <fragment
         android:id="@+id/internalNewLocalBackupRestore"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.local.InternalNewLocalBackupRestore" />
+        android:name="com.servalabs.chat.registration.ui.restore.local.InternalNewLocalBackupRestore" />
 
     <fragment
         android:id="@+id/restoreLocalBackupFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupFragment">
+        android:name="com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupFragment">
 
         <action
             android:id="@+id/go_to_enterPhoneNumber"
@@ -279,7 +279,7 @@
 
     <fragment
         android:id="@+id/enterCodeFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.entercode.EnterCodeFragment"
+        android:name="com.servalabs.chat.registration.ui.entercode.EnterCodeFragment"
         android:label="fragment_enter_code"
         tools:layout="@layout/fragment_registration_enter_code">
 
@@ -315,7 +315,7 @@
 
     <fragment
         android:id="@+id/registrationLockFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.registrationlock.RegistrationLockFragment"
+        android:name="com.servalabs.chat.registration.ui.registrationlock.RegistrationLockFragment"
         android:label="fragment_kbs_lock"
         tools:layout="@layout/fragment_registration_lock">
 
@@ -337,7 +337,7 @@
 
     <fragment
         android:id="@+id/reRegisterWithPinFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.reregisterwithpin.ReRegisterWithPinFragment"
+        android:name="com.servalabs.chat.registration.ui.reregisterwithpin.ReRegisterWithPinFragment"
         tools:layout="@layout/fragment_registration_lock">
 
         <action
@@ -354,13 +354,13 @@
 
     <fragment
         android:id="@+id/accountLockedFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.accountlocked.AccountLockedFragment"
+        android:name="com.servalabs.chat.registration.ui.accountlocked.AccountLockedFragment"
         android:label="fragment_account_locked"
         tools:layout="@layout/account_locked_fragment" />
 
     <fragment
         android:id="@+id/captchaFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.captcha.RegistrationCaptchaFragment"
+        android:name="com.servalabs.chat.registration.ui.captcha.RegistrationCaptchaFragment"
         android:label="fragment_captcha"
         tools:layout="@layout/fragment_registration_captcha" />
 

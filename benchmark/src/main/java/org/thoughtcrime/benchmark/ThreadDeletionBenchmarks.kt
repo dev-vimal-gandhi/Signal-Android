@@ -38,7 +38,7 @@ class ThreadDeletionBenchmarks {
   @Test
   fun deleteThread20kMessages() {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.threadDeletion,
       iterations = 1,
       compilationMode = CompilationMode.Partial(),
@@ -58,7 +58,7 @@ class ThreadDeletionBenchmarks {
   @Test
   fun deleteGroupThread20kMessages() {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.threadDeletion,
       iterations = 1,
       compilationMode = CompilationMode.Partial(),
@@ -79,7 +79,7 @@ class ThreadDeletionBenchmarks {
   @Test
   fun deleteGroupThread20kMessagesWithBackupRestore() {
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms.benchmark",
+      packageName = "com.servalabs.chat.benchmark",
       metrics = BenchmarkMetrics.threadDeletion,
       iterations = 1,
       compilationMode = CompilationMode.Partial(),

@@ -8,8 +8,8 @@ package org.whispersystems.signalservice.internal.websocket
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.SignalTrace
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.SignalTrace
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 import org.whispersystems.signalservice.internal.push.SendMessageResponse
 import java.net.SocketException

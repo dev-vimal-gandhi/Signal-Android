@@ -4,7 +4,7 @@ import android.app.ActivityManager
 import android.content.Context
 import android.os.ParcelFileDescriptor
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.FileUtils
+import com.servalabs.chat.util.FileUtils
 import java.io.Closeable
 import java.io.FileDescriptor
 import java.io.FileInputStream
