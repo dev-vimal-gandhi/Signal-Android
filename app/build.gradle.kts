@@ -36,6 +36,10 @@ val debugKeystorePropertiesProvider = providers.of(PropertiesFileValueSource::cl
   parameters.file.set(rootProject.layout.projectDirectory.file("keystore.debug.properties"))
 }
 
+val releaseKeystorePropertiesProvider = providers.of(PropertiesFileValueSource::class.java) {
+  parameters.file.set(rootProject.layout.projectDirectory.file("keystore.properties"))
+}
+
 val languagesProvider = providers.of(LanguageListValueSource::class.java) {
   parameters.resDir.set(layout.projectDirectory.dir("src/main/res"))
 }
@@ -123,6 +127,15 @@ android {
   debugKeystorePropertiesProvider.orNull?.let { properties ->
     signingConfigs.getByName("debug").apply {
       storeFile = file("${project.rootDir}/${properties.getProperty("storeFile")}")
+      storePassword = properties.getProperty("storePassword")
+      keyAlias = properties.getProperty("keyAlias")
+      keyPassword = properties.getProperty("keyPassword")
+    }
+  }
+
+  releaseKeystorePropertiesProvider.orNull?.let { properties ->
+    signingConfigs.create("release").apply {
+      storeFile = file(properties.getProperty("storeFile"))
       storePassword = properties.getProperty("storePassword")
       keyAlias = properties.getProperty("keyAlias")
       keyPassword = properties.getProperty("keyPassword")
@@ -316,12 +329,14 @@ android {
       )
 
       manifestPlaceholders["mapsKey"] = getMapsKey()
-
       buildConfigField("String", "BUILD_VARIANT_TYPE", "\"Debug\"")
       buildConfigField("boolean", "LINK_DEVICE_UX_ENABLED", "true")
     }
 
     getByName("release") {
+      if (releaseKeystorePropertiesProvider.orNull != null) {
+        signingConfig = signingConfigs["release"]
+      }
       isMinifyEnabled = true
       proguardFiles(*buildTypes["debug"].proguardFiles.toTypedArray())
       buildConfigField("String", "BUILD_VARIANT_TYPE", "\"Release\"")
